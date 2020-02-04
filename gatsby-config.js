@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Dragos Nedelcu`,
     author: `Dragos Nedelcu`,
-    description: `A starter blog powered by Gatsby.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `My personal blog.`,
+    siteUrl: `https://www.dragosgn.com/`,
     social: {
       twitter: `dragosgn`,
     },
@@ -63,7 +63,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/dragos-icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
