@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Dragos Nedelcu <dragosgn@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -40,7 +40,7 @@
   },
   "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
-    "gatsby"
+    "dragos"
   ],
   "license": "MIT",
   "main": "n/a",
