@@ -4,7 +4,6 @@ import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
 
 const BlogIndex = ({ data, location }) => {
   const {
