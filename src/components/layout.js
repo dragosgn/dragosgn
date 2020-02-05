@@ -32,6 +32,7 @@ const Layout = ({ location, title, children }) => {
       <h1
         style={{
           flexGrow: 3,
+          margin: "auto",
         }}
       >
         <Link
