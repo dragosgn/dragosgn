@@ -87,6 +87,16 @@ module.exports = {
       },
     },
     `gatsby-plugin-netlify-cms`,
+    {
+      resolve: "gatsby-source-goodreads",
+      options: {
+        developerKey: process.env.GOODREADS_DEV_KEY,
+        goodReadsUserId: process.env.GOODREADS_USER_ID,
+        userShelf: "public", //optional
+      },
+    },
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-styled-components`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

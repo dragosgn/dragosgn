@@ -1,5 +1,5 @@
 backend:
-  name: test-repo
+  name: github
   repo: dragosgn/dragosgn-gatsby
 media_folder: static/assets
 public_folder: /assets

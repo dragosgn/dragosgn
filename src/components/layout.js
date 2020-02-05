@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import { rhythm, scale } from "../utils/typography"
 
 const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
+  const rootPath = `${__PATH_PREFIX__}/blog`
   let header
 
   if (location.pathname === rootPath) {
@@ -32,7 +32,8 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h3
         style={{
-          fontFamily: `Montserrat, sans-serif`,
+          ...scale(1.2),
+          marginBottom: rhythm(1.5),
           marginTop: 0,
         }}
       >
