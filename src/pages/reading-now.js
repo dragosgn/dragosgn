@@ -43,7 +43,7 @@ const TranCancelled = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Reading right now" />
-      <p style={{ ...scale(0.5) }}>Personal reading list:</p>
+      <p style={{ ...scale(1 / 2) }}>Must reads:</p>
       <div style={{ display: "flex", flexWrap: "wrap" }}>
         {books.map(({ title, imgUrl }) => {
           return (
