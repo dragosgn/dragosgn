@@ -1,5 +1,6 @@
 backend:
   name: test-repo
+  repo: dragosgn/dragosgn-gatsby
 media_folder: static/assets
 public_folder: /assets
 collections:
