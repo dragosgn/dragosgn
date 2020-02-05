@@ -33,7 +33,6 @@ const Title = styled.p`
 
 const TranCancelled = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
-  console.log(data.goodreadsShelf.reviews.map(({ book }) => ({ book })))
   const books = data.goodreadsShelf.reviews.map(({ book }) => {
     return {
       title: book.title,
