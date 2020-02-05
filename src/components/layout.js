@@ -1,19 +1,37 @@
 import React from "react"
 import { Link } from "gatsby"
+import styled from "styled-components"
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
+
+const NavBar = styled.nav`
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: ${rhythm(1.5)};
+`
+
+const NavLink = styled(Link)`
+  text-align: center;
+  text-decoration: none;
+  padding: ${rhythm(0.5)} ${rhythm(1.5)};
+  border: 2px solid transparent;
+  border-radius: 3px;
+`
 
 const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/blog`
-  let header
-
-  if (location.pathname === rootPath) {
-    header = (
+  // const rootPath = `${__PATH_PREFIX__}/blog`
+  console.log()
+  let header = (
+    <NavBar>
       <h1
         style={{
-          ...scale(1.3),
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
+          flexGrow: 3,
         }}
       >
         <Link
@@ -27,29 +45,18 @@ const Layout = ({ location, title, children }) => {
           {title}
         </Link>
       </h1>
-    )
-  } else {
-    header = (
-      <h3
-        style={{
-          ...scale(1.2),
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
-        }}
+      <NavLink isActive={location.pathname === `/blog`} to={`/blog`}>
+        blog
+      </NavLink>
+      <NavLink
+        isActive={location.pathname === `/reading-now`}
+        to={`/reading-now`}
       >
-        <Link
-          style={{
-            boxShadow: `none`,
-            textDecoration: `none`,
-            color: `inherit`,
-          }}
-          to={`/`}
-        >
-          {title}
-        </Link>
-      </h3>
-    )
-  }
+        reading
+      </NavLink>
+    </NavBar>
+  )
+
   return (
     <div
       style={{
@@ -61,10 +68,10 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+
+      <footer style={{ paddingTop: `${rhythm(3)}` }}>
+        © {new Date().getFullYear()}, built with ❤️ by Dragos Nedelcu for
+        humans.
       </footer>
     </div>
   )
