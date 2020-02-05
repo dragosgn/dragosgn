@@ -1,0 +1,8 @@
+:root {
+  --mint-leaf: #2d3436;
+}
+
+a {
+  text-decoration: none;
+  color: var(--mint-leaf);
+}
