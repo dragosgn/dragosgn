@@ -25,9 +25,9 @@ const Checkout = class extends React.Component {
   async redirectToCheckout(event) {
     event.preventDefault()
     const { error } = await this.stripe.redirectToCheckout({
-      items: [{ sku: process.env.ONE_TO_ONE_SKU, quantity: 1 }],
-      successUrl: process.env.SUCCESS_URL,
-      cancelUrl: process.env.CANCEL_URL,
+      items: [{ sku: process.env.GATSBY_ONE_TO_ONE_SKU, quantity: 1 }],
+      successUrl: process.env.GATSBY_SUCCESS_URL,
+      cancelUrl: process.env.GATSBY_CANCEL_URL,
     })
 
     if (error) {
