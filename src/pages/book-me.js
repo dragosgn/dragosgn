@@ -8,8 +8,8 @@ import Checkout from "../components/checkout"
 const IndexPage = ({ location }) => (
   <Layout location={location}>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby e-commerce site.</p>
+    <h1>Hi there</h1>
+    <p>Book a OneToOne session with me :)</p>
     <Checkout />
   </Layout>
 )
