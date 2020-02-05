@@ -1,6 +1,10 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
-    title: `Dragos Nedelcu`,
+    title: `@dragosgn`,
     author: `Dragos Nedelcu`,
     description: `My personal blog.`,
     siteUrl: `https://www.dragosgn.com/`,
@@ -71,6 +75,15 @@ module.exports = {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    `gatsby-plugin-stripe`,
+    {
+      resolve: `gatsby-source-stripe`,
+      options: {
+        objects: ["Sku"],
+        secretKey: process.env.STRIPE_SECRET_KEY,
+        downloadFiles: true,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
