@@ -22,6 +22,9 @@ const NavLink = styled(Link)`
   padding: ${rhythm(0.5)} ${rhythm(1.5)};
   border: 2px solid transparent;
   border-radius: 3px;
+  @media screen and (max-width: 768px) {
+    padding: ${rhythm(0.25)} ${rhythm(0.5)};
+  }
 `
 
 const Layout = ({ location, title, children }) => {
