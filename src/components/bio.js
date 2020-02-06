@@ -66,7 +66,7 @@ const Bio = () => {
         />
       </ImageWrapper>
       <p style={{ margin: "0", fontFamily: "Roboto Condensed, sans-serif" }}>
-        <strong>{author}</strong> <br />
+        <strong>{author}</strong> is a software engineer based in Berlin.
       </p>
     </Root>
   )
