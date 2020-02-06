@@ -2,6 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import { graphql } from "gatsby"
+import "typeface-roboto-condensed"
+import "typeface-pt-sans"
 
 import { scale, rhythm } from "../utils/typography"
 import Footer from "./footer"
