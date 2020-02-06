@@ -4,7 +4,6 @@ import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { scale } from "../utils/typography"
 
 const BlogIndex = ({ data, location }) => {
   const {
@@ -31,7 +30,7 @@ const BlogIndex = ({ data, location }) => {
           borderRadius: `50%`,
         }}
       />
-      <p style={{ textAlign: "justify", ...scale(0.1) }}>
+      <p>
         <br />
         Hi, I am Dragos. <br /> <br />A Software Engineer currently at Mister
         Spex, supporting a fantastic team on building the best place to buy

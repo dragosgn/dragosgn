@@ -65,7 +65,7 @@ const Bio = () => {
           }}
         />
       </ImageWrapper>
-      <p style={{ margin: "0" }}>
+      <p style={{ margin: "0", fontFamily: "Roboto Condensed, sans-serif" }}>
         <strong>{author}</strong> <br />
       </p>
     </Root>

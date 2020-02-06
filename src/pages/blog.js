@@ -19,8 +19,9 @@ const BlogIndex = ({ data, location }) => {
             <header>
               <h3
                 style={{
+                  fontFamily: "Roboto Condensed, sans-serif",
+                  fontSize: rhythm(1),
                   marginBottom: rhythm(1 / 4),
-                  fontSize: "1.75rem",
                 }}
               >
                 <Link

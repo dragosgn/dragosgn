@@ -2,18 +2,19 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 
-import { rhythm } from "../utils/typography"
+import { scale, rhythm } from "../utils/typography"
 
 const NavBar = styled.nav`
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  align-content: center;
+  flex-wrap: wrap;
   margin-bottom: ${rhythm(1.5)};
+`
+
+const H1 = styled.h1`
+  font-family: "Roboto Condensed", "sans-serif";
 `
 
 const NavLink = styled(Link)`
@@ -31,7 +32,7 @@ const Layout = ({ location, title, children }) => {
   // const rootPath = `${__PATH_PREFIX__}/blog`
   let header = (
     <NavBar>
-      <h1
+      <H1
         style={{
           flexGrow: 3,
           margin: "auto",
@@ -47,13 +48,26 @@ const Layout = ({ location, title, children }) => {
         >
           {title}
         </Link>
-      </h1>
-      <NavLink isActive={location.pathname === `/blog`} to={`/blog`}>
-        blog
+      </H1>
+      <NavLink
+        isActive={location.pathname === `/blog`}
+        to={`/blog`}
+        style={{
+          ...scale(1 / 4),
+          boxShadow: "none",
+          fontFamily: "Roboto Condensed",
+        }}
+      >
+        <a className="anchor">blog</a>
       </NavLink>
       <NavLink
         isActive={location.pathname === `/reading-now`}
         to={`/reading-now`}
+        style={{
+          ...scale(1 / 4),
+          boxShadow: "none",
+          fontFamily: "Roboto Condensed",
+        }}
       >
         reading
       </NavLink>
@@ -71,7 +85,6 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
-
       <footer style={{ paddingTop: `${rhythm(1 / 4)}` }}>
         © {new Date().getFullYear()}, built with ❤️ by Dragos Nedelcu for
         humans.

@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
+import { formatPostDate, formatReadingTime } from "../utils/helpers"
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -19,22 +20,18 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       />
       <article>
         <header>
-          <h1
-            style={{
-              marginTop: rhythm(1),
-              marginBottom: 0,
-            }}
-          >
+          <h1 style={{ fontFamily: "Roboto Condensed, sans-serif" }}>
             {post.frontmatter.title}
           </h1>
           <p
             style={{
               ...scale(-1 / 5),
-              display: `block`,
+              display: "block",
               marginBottom: rhythm(1),
+              marginTop: rhythm(-4 / 5),
             }}
           >
-            {post.frontmatter.date}
+            {formatPostDate(post.frontmatter.date, "en")}
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
