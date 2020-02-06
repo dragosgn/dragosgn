@@ -1,7 +1,7 @@
 # These rules will change if you change your site’s custom domains or HTTPS settings
 
 # Redirect domain aliases to primary domain
-https://www.dragosgn.com/* https://www.dragosgn.me/:splat 301!
+https://www.dragosgn.me/* https://www.dragosgn.com/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
-https://dragosgn.netlify.com/* https://www.dragosgn.me/:splat 301!
+https://dragosgn.netlify.com/* https://www.dragosgn.com/:splat 301!
