@@ -21,7 +21,6 @@ const BookWrapper = styled.div`
   border: 1px solid #ccc;
 `
 const BookAvatar = styled.img`
-  height: 130px;
   margin: 0;
   border-radius: 3px;
 `
@@ -31,7 +30,13 @@ const Description = styled.div`
 const Title = styled.p`
   margin: 0 0 12px 0;
   padding: 0;
-  width: 13rem;
+`
+
+const BookBox = styled.div`
+  min-width: 100px;
+  display: flex;
+  align-items: center;
+  align-content: center;
 `
 
 const TranCancelled = ({ data, location }) => {
@@ -47,11 +52,13 @@ const TranCancelled = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Reading right now" />
       <h3 style={{ ...scale(1 / 2) }}>Must reads:</h3>
-      <div>
+      <div style={{ marginBottom: "2rem", marginTop: "1rem" }}>
         {books.map(({ title, imgUrl }) => {
           return (
             <BookWrapper key={title}>
-              <BookAvatar src={imgUrl} alt={title} />
+              <BookBox>
+                <BookAvatar src={imgUrl} alt={title} />
+              </BookBox>
               <Description>
                 <Title style={{ ...scale(0.1) }}>{title}</Title>
               </Description>
