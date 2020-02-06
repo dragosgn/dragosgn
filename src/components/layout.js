@@ -58,7 +58,7 @@ const Layout = ({ location, title, children }) => {
           fontFamily: "Roboto Condensed",
         }}
       >
-        <a className="anchor">blog</a>
+        blog
       </NavLink>
       <NavLink
         isActive={location.pathname === `/reading-now`}
