@@ -18,7 +18,6 @@ const BlogIndex = ({ data, location }) => {
         style={{
           marginRight: `auto`,
           marginLeft: `auto`,
-          minWidth: 50,
           borderRadius: `100%`,
           display: "relative",
           marginBottom: rhythm(2),
@@ -76,7 +75,7 @@ export const pageQuery = graphql`
     }
     avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
       childImageSharp {
-        fixed(width: 128, height: 128) {
+        fixed(width: 200, height: 200) {
           ...GatsbyImageSharpFixed
         }
       }
