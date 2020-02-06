@@ -15,6 +15,9 @@ const NavBar = styled.nav`
 
 const H1 = styled.h1`
   font-family: "Roboto Condensed", "sans-serif";
+  @media screen and (max-width: 768px) {
+    font-size: ${rhythm(1.25)};
+  }
 `
 
 const NavLink = styled(Link)`
@@ -24,7 +27,8 @@ const NavLink = styled(Link)`
   border: 2px solid transparent;
   border-radius: 3px;
   @media screen and (max-width: 768px) {
-    padding: ${rhythm(0.25)} ${rhythm(0.5)};
+    padding: ${rhythm(0.25)} ${rhythm(0.25)};
+    font-size: ${rhythm(1 / 4)};
   }
 `
 
