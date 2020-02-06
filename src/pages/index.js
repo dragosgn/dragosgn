@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
-
 import Image from "gatsby-image"
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
@@ -11,7 +11,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title={"Dragos Nedelcu"} />
+      <SEO title={author} />
       <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author}

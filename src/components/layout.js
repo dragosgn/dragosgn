@@ -1,8 +1,10 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import { graphql } from "gatsby"
 
 import { scale, rhythm } from "../utils/typography"
+import Footer from "./footer"
 
 const NavBar = styled.nav`
   list-style-type: none;
@@ -89,12 +91,23 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
-      <footer style={{ paddingTop: `${rhythm(1 / 4)}` }}>
-        © {new Date().getFullYear()}, built with ❤️ by Dragos Nedelcu for
-        humans.
-      </footer>
+      <Footer />
     </div>
   )
 }
 
 export default Layout
+
+export const pageQuery = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        author
+        social {
+          twitter
+        }
+      }
+    }
+  }
+`
