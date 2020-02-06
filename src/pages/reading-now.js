@@ -10,17 +10,20 @@ const BookWrapper = styled.div`
   display: flex;
   align-items: center;
   display: flex;
-  flex-direction: column;
   justify-content: start;
   background: #ffffff;
   box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   margin: 2rem;
   transition: all 100ms ease-in-out;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border: 1px solid #ccc;
 `
 const BookAvatar = styled.img`
   height: 130px;
   margin: 0;
+  border-radius: 3px;
 `
 const Description = styled.div`
   padding: ${rhythm(1 / 2)};
@@ -44,7 +47,7 @@ const TranCancelled = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <SEO title="Reading right now" />
       <p style={{ ...scale(1 / 2) }}>Must reads:</p>
-      <div style={{ display: "flex", flexWrap: "wrap" }}>
+      <div>
         {books.map(({ title, imgUrl }) => {
           return (
             <BookWrapper key={title}>
