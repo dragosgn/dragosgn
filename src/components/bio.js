@@ -58,14 +58,13 @@ const Bio = () => {
           alt={author}
           style={{
             borderRadius: `100%`,
-            width: "100%",
           }}
           imgStyle={{
             borderRadius: `50%`,
           }}
         />
       </ImageWrapper>
-      <p style={{ margin: "0", fontFamily: "Roboto Condensed, sans-serif" }}>
+      <p style={{ margin: "0" }}>
         <strong>{author}</strong> is a software engineer based in Berlin.
       </p>
     </Root>
