@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { rhythm } from "../utils/typography"
 
 const BlogIndex = ({ data, location }) => {
   const {
@@ -13,7 +14,7 @@ const BlogIndex = ({ data, location }) => {
   } = data.site.siteMetadata
 
   return (
-    <Layout location={location} title={`@${twitter}`}>
+    <Layout location={location} title={siteTitle}>
       <SEO title={"Dragos Nedelcu"} />
       <Image
         fixed={data.avatar.childImageSharp.fixed}
@@ -21,10 +22,10 @@ const BlogIndex = ({ data, location }) => {
         style={{
           marginRight: `auto`,
           marginLeft: `auto`,
-          display: `flex`,
-          marginBottom: 0,
           minWidth: 50,
           borderRadius: `100%`,
+          display: "relative",
+          marginBottom: rhythm(2),
         }}
         imgStyle={{
           borderRadius: `50%`,
