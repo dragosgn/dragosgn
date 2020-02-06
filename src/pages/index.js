@@ -14,7 +14,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <Layout location={location} title={`@${twitter}`}>
-      <SEO title={siteTitle} />
+      <SEO title={"Dragos Nedelcu"} />
       <Image
         fixed={data.avatar.childImageSharp.fixed}
         alt={author}

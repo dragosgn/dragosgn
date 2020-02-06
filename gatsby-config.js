@@ -6,10 +6,12 @@ module.exports = {
   siteMetadata: {
     title: `@dragosgn`,
     author: `Dragos Nedelcu`,
-    description: `My personal blog.`,
+    description: `Hi, I am Dragos. I write about software.`,
     siteUrl: `https://www.dragosgn.com/`,
     social: {
       twitter: `dragosgn`,
+      github: `dragosgn`,
+      linkedin: `dragosgn`,
     },
   },
   plugins: [
