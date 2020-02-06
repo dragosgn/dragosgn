@@ -20,7 +20,12 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       />
       <article>
         <header>
-          <h1 style={{ fontFamily: "Roboto Condensed, sans-serif" }}>
+          <h1
+            style={{
+              ...scale(1 / 1.2),
+              fontFamily: "Roboto Condensed, sans-serif",
+            }}
+          >
             {post.frontmatter.title}
           </h1>
           <p
