@@ -1,8 +1,8 @@
 import Typography from "typography"
 
 const typography = new Typography({
-  baseFontSize: "18px",
-  baseLineHeight: 1.666,
+  baseFontSize: "16px",
+  baseLineHeight: 1.5,
   headerFontFamily: [
     "Avenir Next",
     "Helvetica Neue",
