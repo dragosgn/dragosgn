@@ -29,7 +29,6 @@ const NavLink = styled(Link)`
 
 const Layout = ({ location, title, children }) => {
   // const rootPath = `${__PATH_PREFIX__}/blog`
-  console.log()
   let header = (
     <NavBar>
       <h1
@@ -73,7 +72,7 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
 
-      <footer style={{ paddingTop: `${rhythm(3)}` }}>
+      <footer style={{ paddingTop: `${rhythm(1 / 4)}` }}>
         © {new Date().getFullYear()}, built with ❤️ by Dragos Nedelcu for
         humans.
       </footer>

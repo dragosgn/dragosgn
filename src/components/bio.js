@@ -8,15 +8,32 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
+import styled from "styled-components"
 
 import { rhythm } from "../utils/typography"
+
+const Root = styled.div`
+  display: flex;
+  align-items: center;
+  padding: ${rhythm(1 / 4)};
+  justify-content: start;
+  align-content: center;
+  align-items: center;
+`
+
+const ImageWrapper = styled.div`
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  margin-right: ${rhythm(1 / 2)};
+`
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
     query BioQuery {
       avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
         childImageSharp {
-          fixed(width: 128, height: 128) {
+          fixed(width: 80, height: 80) {
             ...GatsbyImageSharpFixed
           }
         }
@@ -34,29 +51,25 @@ const Bio = () => {
 
   const { author } = data.site.siteMetadata
   return (
-    <div
-      style={{
-        display: `flex`,
-        marginBottom: rhythm(2.5),
-      }}
-    >
-      <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author}
-        style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: 0,
-          minWidth: 50,
-          borderRadius: `100%`,
-        }}
-        imgStyle={{
-          borderRadius: `50%`,
-        }}
-      />
-      <p>
-        Written by <strong>{author}</strong> for humans.
+    <Root>
+      <ImageWrapper>
+        <Image
+          fixed={data.avatar.childImageSharp.fixed}
+          alt={author}
+          style={{
+            borderRadius: `100%`,
+            width: "100%",
+            borderRadius: "100%",
+          }}
+          imgStyle={{
+            borderRadius: `50%`,
+          }}
+        />
+      </ImageWrapper>
+      <p style={{ margin: "0" }}>
+        <strong>{author}</strong> <br />
       </p>
-    </div>
+    </Root>
   )
 }
 
