@@ -40,22 +40,6 @@ const BlogIndex = ({ data, location }) => {
         hold a Bachelor in Aerospace Engineering with a minor in Propulsion
         Systems.
       </p>
-      <p>
-        Building software products, teams, and companies has been my fascination
-        from a young age. On the way, I had the opportunity to lead different
-        software startups, sometimes a Co-founder. Always with a strong focus on
-        delivery and results.
-      </p>
-      <p>
-        It's been quite a ride, and I love every minute of it. As for the
-        reader, work with people you admire, focus on contribution, and never
-        settle.
-      </p>
-      <p>
-        Until the next one :)
-        <br />
-        Dragos
-      </p>
     </Layout>
   )
 }
