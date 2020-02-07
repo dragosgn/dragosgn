@@ -13,6 +13,9 @@ Wordpress2016.overrideThemeStyles = () => ({
   hr: {
     background: "var(--hr)",
   },
+  "h1, h2, h3, h4, h5, h6": {
+    fontFamily: "Roboto Condensed, sans-serif",
+  },
 
   "a.gatsby-resp-image-link": {
     boxShadow: "none",

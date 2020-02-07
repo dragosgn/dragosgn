@@ -23,7 +23,6 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           <h1
             style={{
               ...scale(1 / 1.2),
-              fontFamily: "Roboto Condensed, sans-serif",
             }}
           >
             {post.frontmatter.title}
