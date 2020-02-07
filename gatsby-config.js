@@ -53,12 +53,12 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: `UA-62374624-1`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-analytics`,
+    //   options: {
+    //     trackingId: `UA-62374624-1`,
+    //   },
+    // },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -80,15 +80,15 @@ module.exports = {
         omitGoogleFont: true,
       },
     },
-    `gatsby-plugin-stripe`,
-    {
-      resolve: `gatsby-source-stripe`,
-      options: {
-        objects: ["Sku"],
-        secretKey: process.env.STRIPE_SECRET_KEY,
-        downloadFiles: true,
-      },
-    },
+    // `gatsby-plugin-stripe`,
+    // {
+    //   resolve: `gatsby-source-stripe`,
+    //   options: {
+    //     objects: ["Sku"],
+    //     secretKey: process.env.STRIPE_SECRET_KEY,
+    //     downloadFiles: true,
+    //   },
+    // },
     `gatsby-plugin-netlify-cms`,
     {
       resolve: "gatsby-source-goodreads",
