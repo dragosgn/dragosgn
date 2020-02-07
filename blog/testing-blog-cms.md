@@ -5,7 +5,9 @@ title: On teaching - Part I
 ---
 Last September, I joined the ESMT Coding Bootcamp as a Teaching Assistant. My role consists of supporting students on their full-stack learning journey. I do this after the instructor introduces the material for the session, either during class or through one to one personalized sessions. I took the job without thinking twice. Finally, an opportunity to develop, learn, and inspire the next generation of developers, a no brainer.
 
-### Job satisfaction beyond financial compensation
+
+
+### One of the best experiences in my career
 
 Six months after, I must say the experience has been one of the most rewarding in my professional career. Supporting individuals on their learning journey offers you a unique perspective on learning. Witnessing the difficulty of being int the driver’s seat when learning software helps you become a more empathetic and patient leader. Even with all the great material, courses, and boot camps available out there, learning software is hard. The daunting and confusing multitude of tools, frameworks, libraries, and patterns frightens even the bravest. And let’s not even get into syntax.
 
