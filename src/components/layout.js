@@ -6,70 +6,49 @@ import { graphql } from "gatsby"
 import { scale, rhythm } from "../utils/typography"
 import Footer from "./footer"
 
-const NavBar = styled.nav`
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: ${rhythm(1.5)};
-`
-
-const H1 = styled.h1`
+const BrandLink = styled(Link)`
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 900;
+  color: var(--brandColor);
+  box-shadow: none;
   ${{ ...scale(1) }};
   @media screen and (max-width: 768px) {
-    ${{ ...scale(1 / 1.5) }};
+    ${{ ...scale(1 / 2) }};
   }
 `
 
 const NavLink = styled(Link)`
-  ${{ ...scale(1 / 1.5) }};
-  text-align: center;
-  text-decoration: none;
-  border: 2px solid transparent;
-  border-radius: 3px;
-  display: flex;
-  align-content: center;
+  font-family: "Josefin Sans", sans-serif;
+  box-shadow: none;
+  ${{ ...scale(1 / 4) }};
   @media screen and (max-width: 768px) {
-    ${{ ...scale(1 / 4) }};
+    ${{ ...scale(1 / 10) }};
   }
-  line-height: 0;
-  display: flex;
-  align-content: center;
-  align-items: center;
 `
 
 const Layout = ({ location, title, children }) => {
   // const rootPath = `${__PATH_PREFIX__}/blog`
   let header = (
-    <NavBar>
-      <H1
-        style={{
-          flexGrow: 3,
-          margin: "auto",
-        }}
-      >
-        <Link
-          style={{
-            boxShadow: `none`,
-            textDecoration: `none`,
-            color: `inherit`,
-          }}
-          to={`/`}
-        >
-          dragosgn
-        </Link>
-      </H1>
-      <NavLink isActive={location.pathname === `/blog`} to={`/blog`}>
-        <p>blog</p>
-      </NavLink>
-      <NavLink
-        isActive={location.pathname === `/reading-now`}
-        to={`/reading-now`}
-      >
-        <p>reading</p>
-      </NavLink>
-    </NavBar>
+    <nav style={{ marginBottom: "1rem" }}>
+      <div className="nav-container">
+        <div className="nav-box brand">
+          <BrandLink to={`/`}>{title}</BrandLink>
+        </div>
+        <div className="nav-box nav-link">
+          <NavLink isActive={location.pathname === `/blog`} to={`/blog`}>
+            blog
+          </NavLink>
+        </div>
+        <div className="nav-box nav-link">
+          <NavLink
+            isActive={location.pathname === `/reading-now`}
+            to={`/reading-now`}
+          >
+            reading
+          </NavLink>
+        </div>
+      </div>
+    </nav>
   )
 
   return (

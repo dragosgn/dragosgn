@@ -1,11 +1,40 @@
 :root {
-  --mint-leaf: #2d3436;
+  --blackPearl: #1e272e;
+  --orangeHibiscus: #fa8231;
+  --textLink: var(--orangeHibiscus);
+  --brandColor: var(--orangeHibiscus);
+  --textColor: var(--blackPearl);
 }
 
 body {
   font-family: "PT Sans", sans-serif;
 }
 
-a {
-  color: var(--mint-leaf);
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container > .nav-box.nav-link {
+  flex: 1;
+}
+
+.nav-container > .nav-box.nav-link > a {
+  color: var(--textColor);
+}
+
+.nav-container > .nav-box.brand {
+  flex-grow: 6;
+}
+
+@media all and (max-width: 600px) {
+  .nav-container > .nav-box.brand {
+    flex-grow: 4;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .nav-container > .nav-box.brand {
+    flex-grow: 4;
+  }
 }
