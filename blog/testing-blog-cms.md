@@ -13,11 +13,15 @@ Six months after, I must say the experience has been one of the most rewarding i
 
 Our students are a very diverse crowd. We have 10+ nationalities, different ages, genders, and goals. But they all share a common trait; they are determined, ambitious, and eager to build a career in tech. It was their motivation that kept me on track many times.
 
+
+
 ### Job satisfaction beyond financial compensation
 
 As software engineers, we operate in abstract worlds. We learn to translate real-world problems into something that a machine can understand and execute. It is within that process of navigating abstractions that the “real” impact of your work gets sometimes distorted.
 
 Teaching is nothing like that. Receiving thank you emails at midnight from students that, through your support, finally managed to solve that hard compiling error is priceless. It goes far beyond financial compensation or career advancement; it is a job well done.
+
+
 
 ### To teach is to listen
 
