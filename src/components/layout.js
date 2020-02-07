@@ -63,7 +63,7 @@ const Layout = ({ location, title, children }) => {
         style={{
           ...scale(1 / 4),
           boxShadow: "none",
-          fontFamily: "Roboto Condensed",
+          fontFamily: "Roboto Condensed, sans-serif",
         }}
       >
         blog
@@ -74,7 +74,7 @@ const Layout = ({ location, title, children }) => {
         style={{
           ...scale(1 / 4),
           boxShadow: "none",
-          fontFamily: "Roboto Condensed",
+          fontFamily: "Roboto Condensed, sans-serif",
         }}
       >
         reading
