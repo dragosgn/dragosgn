@@ -2,8 +2,6 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import { graphql } from "gatsby"
-import "typeface-roboto-condensed"
-import "typeface-pt-sans"
 
 import { scale, rhythm } from "../utils/typography"
 import Footer from "./footer"
@@ -18,22 +16,27 @@ const NavBar = styled.nav`
 `
 
 const H1 = styled.h1`
-  font-family: "Roboto Condensed", "sans-serif";
+  ${{ ...scale(1) }};
   @media screen and (max-width: 768px) {
-    font-size: ${rhythm(1.25)};
+    ${{ ...scale(1 / 1.5) }};
   }
 `
 
 const NavLink = styled(Link)`
+  ${{ ...scale(1 / 1.5) }};
   text-align: center;
   text-decoration: none;
-  padding: ${rhythm(0.5)} ${rhythm(1.5)};
   border: 2px solid transparent;
   border-radius: 3px;
+  display: flex;
+  align-content: center;
   @media screen and (max-width: 768px) {
-    padding: ${rhythm(0.25)} ${rhythm(0.25)};
-    font-size: ${rhythm(1 / 4)};
+    ${{ ...scale(1 / 4) }};
   }
+  line-height: 0;
+  display: flex;
+  align-content: center;
+  align-items: center;
 `
 
 const Layout = ({ location, title, children }) => {
@@ -54,30 +57,17 @@ const Layout = ({ location, title, children }) => {
           }}
           to={`/`}
         >
-          {title}
+          dragosgn
         </Link>
       </H1>
-      <NavLink
-        isActive={location.pathname === `/blog`}
-        to={`/blog`}
-        style={{
-          ...scale(1 / 4),
-          boxShadow: "none",
-          fontFamily: "Roboto Condensed, sans-serif",
-        }}
-      >
-        blog
+      <NavLink isActive={location.pathname === `/blog`} to={`/blog`}>
+        <p>blog</p>
       </NavLink>
       <NavLink
         isActive={location.pathname === `/reading-now`}
         to={`/reading-now`}
-        style={{
-          ...scale(1 / 4),
-          boxShadow: "none",
-          fontFamily: "Roboto Condensed, sans-serif",
-        }}
       >
-        reading
+        <p>reading</p>
       </NavLink>
     </NavBar>
   )

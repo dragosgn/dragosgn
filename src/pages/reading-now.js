@@ -51,11 +51,7 @@ const TranCancelled = ({ data, location }) => {
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Reading right now" />
-      <h3
-        style={{ ...scale(1 / 2), fontFamily: "Roboto Condensed, sans-serif" }}
-      >
-        Must reads:
-      </h3>
+      <h3 style={{ ...scale(1 / 2) }}>Must reads:</h3>
       <div style={{ marginBottom: "2rem", marginTop: "1rem" }}>
         {books.map(({ title, imgUrl }) => {
           return (
