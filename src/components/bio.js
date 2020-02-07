@@ -65,7 +65,24 @@ const Bio = () => {
         />
       </ImageWrapper>
       <p style={{ margin: "0" }}>
-        <strong>{author}</strong> is a software engineer based in Berlin.
+        <strong>{author}</strong> is a Software Engineer living in beautiful
+        Berlin. Currently happily employed at{" "}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.misterspex.de"
+        >
+          @misterspex.
+        </a>{" "}
+        You can reach him at{" "}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://twitter.com/dragosgn"
+        >
+          @dragosgn
+        </a>
+        .
       </p>
     </Root>
   )
