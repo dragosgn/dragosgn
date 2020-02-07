@@ -2,6 +2,7 @@
 path: on-teaching-part-I
 date: 2020-01-06T14:41:47.283Z
 title: On teaching - Part I
+description: To teach is to listen
 ---
 Last September, I joined the ESMT Coding Bootcamp as a Teaching Assistant. My role consists of supporting students on their full-stack learning journey. I do this after the instructor introduces the material for the session, either during class or through one to one personalized sessions. I took the job without thinking twice. Finally, an opportunity to develop, learn, and inspire the next generation of developers, a no brainer.
 
