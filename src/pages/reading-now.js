@@ -27,7 +27,7 @@ const BookAvatar = styled.img`
 const Description = styled.div`
   padding: ${rhythm(1 / 2)};
 `
-const Title = styled.p`
+const Title = styled.h5`
   margin: 0 0 12px 0;
   padding: 0;
 `
@@ -39,28 +39,44 @@ const BookBox = styled.div`
   align-content: center;
 `
 
-const TranCancelled = ({ data, location }) => {
+String.prototype.trunc =
+  String.prototype.trunc ||
+  function(n) {
+    return this.length > n ? this.substr(0, n - 1) + "&hellip;" : this
+  }
+
+const ReadingNow = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
-  const books = data.goodreadsShelf.reviews.map(({ book }) => {
-    return {
-      title: book.title,
-      imgUrl: book.imageUrl,
+  const books = data.goodreadsShelf.reviews.map(
+    ({ book: { title, description, imageUrl } }) => {
+      return {
+        title,
+        imageUrl,
+        description,
+      }
     }
-  })
+  )
 
   return (
     <Layout location={location} title={siteTitle}>
       <SEO title="Reading right now" />
       <h3 style={{ ...scale(1 / 2) }}>Must reads:</h3>
       <div style={{ marginBottom: "2rem", marginTop: "1rem" }}>
-        {books.map(({ title, imgUrl }) => {
+        {books.map(({ title, imageUrl, description }) => {
           return (
             <BookWrapper key={title}>
               <BookBox>
-                <BookAvatar src={imgUrl} alt={title} />
+                <BookAvatar src={imageUrl} alt={title} />
               </BookBox>
               <Description>
-                <Title style={{ ...scale(0.1) }}>{title}</Title>
+                <Title
+                  style={{ ...scale(0.1) }}
+                  dangerouslySetInnerHTML={{ __html: title.trunc(30) }}
+                ></Title>
+                <div
+                  style={{ ...scale(-0.15) }}
+                  dangerouslySetInnerHTML={{ __html: description.trunc(200) }}
+                />
               </Description>
             </BookWrapper>
           )
@@ -70,7 +86,7 @@ const TranCancelled = ({ data, location }) => {
   )
 }
 
-export default TranCancelled
+export default ReadingNow
 
 export const pageQuery = graphql`
   query {
