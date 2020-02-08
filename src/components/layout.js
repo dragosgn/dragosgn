@@ -15,6 +15,9 @@ const BrandLink = styled(Link)`
   @media screen and (max-width: 768px) {
     ${{ ...scale(1 / 2) }};
   }
+  @media all and (max-width: 400px) {
+    ${{ ...scale(1 / 4) }};
+  }
 `
 
 const NavLink = styled(Link)`
@@ -23,6 +26,9 @@ const NavLink = styled(Link)`
   ${{ ...scale(1 / 4) }};
   @media screen and (max-width: 768px) {
     ${{ ...scale(1 / 10) }};
+  }
+  @media all and (max-width: 400px) {
+    ${{ ...scale(-1 / 10) }};
   }
 `
 

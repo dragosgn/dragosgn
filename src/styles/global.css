@@ -13,10 +13,11 @@ body {
 .nav-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav-container > .nav-box.nav-link {
-  flex: 1;
+  flex-basis: 15%;
 }
 
 .nav-container > .nav-box.nav-link > a {
@@ -24,17 +25,17 @@ body {
 }
 
 .nav-container > .nav-box.brand {
-  flex-grow: 6;
+  flex-basis: 70%;
 }
 
 @media all and (max-width: 600px) {
   .nav-container > .nav-box.brand {
-    flex-grow: 4;
+    flex-basis: 50%;
   }
 }
 
 @media all and (max-width: 400px) {
   .nav-container > .nav-box.brand {
-    flex-grow: 4;
+    flex-basis: 50%;
   }
 }
