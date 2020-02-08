@@ -75,7 +75,7 @@ const ReadingNow = ({ data, location }) => {
                 ></Title>
                 <div
                   style={{ ...scale(-0.15) }}
-                  dangerouslySetInnerHTML={{ __html: description.trunc(200) }}
+                  dangerouslySetInnerHTML={{ __html: description.trunc(250) }}
                 />
               </Description>
             </BookWrapper>
