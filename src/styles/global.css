@@ -8,6 +8,13 @@
 
 body {
   font-family: "PT Sans", sans-serif;
+  font-size: 21px;
+}
+
+@media all and (max-width: 600px) {
+  body {
+    font-size: 18px;
+  }
 }
 
 .nav-container {
