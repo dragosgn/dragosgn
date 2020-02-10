@@ -8,15 +8,21 @@ Last September, I joined the ESMT Coding Bootcamp as a Teaching Assistant. My ro
 
 Our students are a very diverse crowd. We have 10+ nationalities, different ages, genders, and goals. But they all share a common trait; they are determined, ambitious, and eager to build a career in tech. It was their motivation that kept me on track many times.
 
+
+
 ### One of the best experiences in my career
 
-Six months after, I must say the experience has been one of the most rewarding in my professional career. Supporting individuals on their learning journey offers you a unique perspective on learning. Witnessing the difficulty of being in the driver’s seat when learning software helps you become a more empathetic and patient leader. Despite all the great material, courses, and boot camps available out there, learning software is hard. The daunting multitude of tools, frameworks, libraries, and patterns frightens even the bravest. And let’s not even get into syntax.
+Six months after, I must say the experience has been one of the most rewarding in my professional career. Supporting individuals on their learning journey offers you a unique perspective on learning. Witnessing the difficulty of being in the driver’s seat when learning software helps you become a more empathetic and patient leader. Despite all the great material, courses, and boot camps available out there, learning software is hard. The daunting multitude of tools, frameworks, libraries, and patterns frightens even the bravest. And let’s not get into syntax.
+
+
 
 ### Job satisfaction beyond financial compensation
 
 As software engineers, we operate in abstract worlds. We learn to translate real-world problems into something that a machine can understand and execute. It is within that process of navigating abstractions that the “real” impact of your work gets sometimes distorted.
 
 Teaching is nothing like that. Receiving thank you emails at midnight from students that, through your support, finally managed to solve that hard compiling error is priceless. It goes far beyond financial compensation or career advancement; it is a job well done.
+
+
 
 ### To teach is to listen
 
