@@ -4,7 +4,7 @@ date: 2020-01-06T14:41:47.283Z
 title: On teaching software - Part I
 description: Learning software is hard and to teach is to listen.
 ---
-Last September, I joined the ESMT Coding Bootcamp as a Teaching Assistant. My role consists of supporting students on their full-stack learning journey. I do this after the instructor introduces the material for the session, either during class or through one to one personalized sessions. I took the job without thinking twice. Certainly, an opportunity to develop, learn, and inspire the next generation of developers, a no-brainer.
+Last September, I joined the ESMT Coding Bootcamp as a Teaching Assistant. My role consists of supporting students on their full-stack learning journey. I do this after the instructor introduces the material for the session, either during class or through one to one personalized sessions. I took the job without thinking twice. Finally, an opportunity to develop, learn, and inspire the next generation of developers, a no-brainer.
 
 Our students are a very diverse group. We have 10+ nationalities, different ages, genders, and goals. But they all share a common trait; they are determined, ambitious, and eager to build a career in tech. It was their motivation that kept me on track many times.
 
