@@ -39,11 +39,9 @@ const BookBox = styled.div`
   align-content: center;
 `
 
-String.prototype.trunc =
-  String.prototype.trunc ||
-  function(n) {
-    return this.length > n ? this.substr(0, n - 1) + "&hellip;" : this
-  }
+function truncString(string, n) {
+  return string.length > n ? string.substr(0, n - 1) + "&hellip;" : string
+}
 
 const ReadingNow = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -71,11 +69,13 @@ const ReadingNow = ({ data, location }) => {
               <Description>
                 <Title
                   style={{ ...scale(0.1) }}
-                  dangerouslySetInnerHTML={{ __html: title.trunc(30) }}
+                  dangerouslySetInnerHTML={{ __html: truncString(title, 30) }}
                 ></Title>
                 <div
                   style={{ ...scale(-0.15) }}
-                  dangerouslySetInnerHTML={{ __html: description.trunc(250) }}
+                  dangerouslySetInnerHTML={{
+                    __html: truncString(description, 250),
+                  }}
                 />
               </Description>
             </BookWrapper>

@@ -1,7 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
-import "typeface-roboto-condensed"
 import "typeface-pt-sans"
 
 import Layout from "../components/layout"

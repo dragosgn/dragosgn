@@ -1,5 +1,5 @@
-import "typeface-roboto-condensed"
 import "typeface-pt-sans"
+import "typeface-josefin-sans"
 
 import Typography from "typography"
 import Wordpress2016 from "typography-theme-wordpress-2016"
