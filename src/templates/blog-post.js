@@ -41,7 +41,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
-            marginBottom: rhythm(2),
+            marginBottom: rhythm(1.5),
           }}
         />
         <footer>
