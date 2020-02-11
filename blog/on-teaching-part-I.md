@@ -22,8 +22,8 @@ Teaching is nothing like that. Receiving thank you emails in the middle of the n
 
 Like any human relationship, empathy and understanding are the keys to success. You must understand what students are struggling with, how do they feel, and what is their approach to solving the issue. It is only after that you can advise, correcting direction using a [Socratic dialogue](https://en.wikipedia.org/wiki/Socratic_dialogue) in the quest for a solution. You will soon learn that to teach is to listen.
 
-Handling two jobs at the same time is exhausting; you will have to sacrifice personal time, square schedules and feel tired at times. Nevertheless, the experience is worth every minute. If you are a software engineer interested in leadership, teaching is a perfect fist step for further development. 
+Handling two jobs at the same time is exhausting; you will have to sacrifice personal time, square schedules, and feel tired at times. Nevertheless, the experience is worth every minute. If you are a software engineer interested in leadership, teaching is a perfect fist step for further development. 
 
-So start right now. If you can’t do it in a class format, try to help somebody that’s at the beginning of their learning curve.
+So start right now. If you can’t do it in a class format, try to help somebody that’s just beginning.
 
 As for me, I am immensely proud of our students and looking forward to graduation!
