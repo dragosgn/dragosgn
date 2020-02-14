@@ -2,10 +2,13 @@ import React from "react"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import "typeface-pt-sans"
+import LogRocket from "logrocket"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+
+LogRocket.init("grfjq9/personal")
 
 const BlogIndex = ({ data, location }) => {
   const { title: siteTitle, author } = data.site.siteMetadata
