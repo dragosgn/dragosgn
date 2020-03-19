@@ -7,7 +7,7 @@ description: '2019 was a good year. A year full of changes mostly to the better.
 
 ## I switched jobs
 
-After more than two years building a Software as Service solution, I decided to make a jump to the e-commerce space.  
+After more than two years building a SaaS solution, I decided to make a jump to the e-commerce space.  
 
 I joined a company I really love and got the chance to work with people I respect and admire. I strongly believe that in terms of culture and people development we are one of the best employer in Berlin and will continue to be so in the years to come. 
 
