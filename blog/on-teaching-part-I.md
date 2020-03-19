@@ -1,7 +1,7 @@
 ---
 path: on-teaching-part-I
 date: 2020-01-06T14:41:47.283Z
-title: On teaching software - Part I
+title: On teaching - Part I
 description: Learning software is hard and to teach is to listen.
 ---
 Last September, I joined the ESMT Coding Bootcamp as a Teaching Assistant. My role consists of supporting students on their full-stack learning journey. I do this either during class or through one to one personalized sessions. I took the job without thinking twice. Finally, an opportunity to develop and inspire the next generation of software engineers, a no-brainer.
