@@ -23,4 +23,4 @@ Mentorship is one of the best ways of advancing your career. Having somebody tha
 
 ## I became a mentor
 
-I became a mentor. Having people helping me on my way up has made me a strong believer in the power of mentorship. In September I signed up as mentor in the ReDI School of Digital Integration. My roles consists in mentoring people from all walks of life in their journey of securing a job in tech.
+I became a mentor. Having people helping me on my way up made me a true believer in the power of mentorship. In September I signed up as mentor in the ReDI School of Digital Integration. My roles consists in mentoring people from all walks of life in their journey of securing a job in tech.
