@@ -32,13 +32,13 @@ const BlogIndex = ({ data, location }) => {
       />
       <p>Hi, I am Dragos.</p>
 
-      <p>
+      <p style={{ textAlign: "justify" }}>
         A Software Engineer currently at Mister Spex, supporting a fantastic
         team on building the best place to buy eyewear in Europe. On the side, I
         share my knowledge and passion for software with 10+ amazing students at
         ESMT Berlin.
       </p>
-      <p>
+      <p style={{ textAlign: "justify" }}>
         Born in Romania, raised in Spain now based in beautiful Berlin. This
         diversity of experiences, people, and perspectives marked my career. I
         hold a Bachelor in Aerospace Engineering with a minor in Propulsion
