@@ -1,0 +1,19 @@
+---
+path: what-you-can-do-is-to-persist
+date: 2020-05-07T22:45:09.600Z
+title: What you can do is to persist
+description: Persistence alone can inspire others.
+---
+"They are kicking my *** for being a poor leader. How can I learn faster?"
+
+You can't.
+
+Learning takes time, specially in leadership. 
+
+What you can do is to persist. 
+
+Keep making it happen. 
+
+Persistence alone inspire others. Trust me, you will earn their respect. With respect comes loyalty. 
+
+And thats the first step to lead.
