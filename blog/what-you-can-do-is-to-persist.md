@@ -6,7 +6,7 @@ description: Persistence alone can inspire others.
 ---
 "They are kicking my \*\** for being a poor leader. How can I learn faster?"
 
-You can't.
+Sometimes, you just can't.
 
 Learning takes time, particularly in leadership. 
 
