@@ -18,6 +18,7 @@ const Root = styled.div`
   padding: ${rhythm(1 / 4)};
   justify-content: start;
   align-content: center;
+  border-top: 1px solid #1e272e;
   align-items: center;
 `
 
