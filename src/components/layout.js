@@ -41,18 +41,21 @@ const Layout = ({ location, title, children }) => {
           <BrandLink to={`/`}>{title}</BrandLink>
         </div>
         <div className="nav-box nav-link">
-          <NavLink isActive={location.pathname === `/blog`} to={`/blog`}>
+          <NavLink
+            isActive={location.pathname === `/technology-leadership-blog`}
+            to={`/technology-leadership-blog`}
+          >
             blog
           </NavLink>
         </div>
-        <div className="nav-box nav-link">
+        {/* <div className="nav-box nav-link">
           <NavLink
             isActive={location.pathname === `/reading-now`}
             to={`/reading-now`}
           >
             reading
           </NavLink>
-        </div>
+        </div> */}
       </div>
     </nav>
   )
