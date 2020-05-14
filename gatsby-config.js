@@ -8,7 +8,7 @@ module.exports = {
     author: `Dragos Nedelcu`,
     description: `Hi, I am Dragos. I write about software, leadership and entepreneurship.`,
     siteUrl: `https://www.dragosgn.com/`,
-    image: "/content/assets/profile-pic.jpg", // Path to your image you placed in the 'static' folder
+    image: "assets/profile-pic.jpg", // Path to your image you placed in the 'static' folder
     social: {
       twitter: `https://twitter.com/dragosgn`,
       github: `https://github.com/dragosgn`,
