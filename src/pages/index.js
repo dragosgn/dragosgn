@@ -30,7 +30,7 @@ const BlogIndex = ({ data, location }) => {
           borderRadius: `50%`,
         }}
       />
-      <p>Hi, I am Dragos.</p>
+      <h3>Hi, I am Dragos.</h3>
       <p style={{ textAlign: "justify" }}>
         A Software Engineer currently at Mister Spex, supporting a fantastic
         team on building the best place to buy eyewear in Europe. On the side, I
@@ -54,10 +54,10 @@ const BlogIndex = ({ data, location }) => {
         reader, work with people you admire, focus on contribution, and never
         settle.
       </p>
-      <br></br>
-      Until the next one :)
-      <br /> Dragos
-      <br />
+      <p>
+        You can see more of me here: <a>Linkedin</a> · <a>Github</a> ·{" "}
+        <a>Twitter</a>
+      </p>
       <br />
     </Layout>
   )

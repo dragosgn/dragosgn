@@ -24,7 +24,7 @@ body {
 }
 
 .nav-container > .nav-box.nav-link {
-  flex-basis: 15%;
+  display: inline;
 }
 
 .nav-container > .nav-box.nav-link > a {

@@ -6,12 +6,13 @@ module.exports = {
   siteMetadata: {
     title: `@dragosgn`,
     author: `Dragos Nedelcu`,
-    description: `Hi, I am Dragos. I write about software.`,
+    description: `Hi, I am Dragos. I write about software, leadership and entepreneurship.`,
     siteUrl: `https://www.dragosgn.com/`,
+    image: "/content/assets/profile-pic.jpg", // Path to your image you placed in the 'static' folder
     social: {
       twitter: `dragosgn`,
       github: `dragosgn`,
-      linkedin: `dragosgn`,
+      linkedin: `dragosnedelcu`,
     },
   },
   plugins: [
@@ -54,18 +55,18 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `UA-62374624-1`,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-62374624-1`,
+      },
+    },
     `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Dragos Nedelcu - Blog`,
+        short_name: `Dragos Nedelcu`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
