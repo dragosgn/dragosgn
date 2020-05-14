@@ -8,7 +8,7 @@ module.exports = {
     author: `Dragos Nedelcu`,
     description: `Hi, I am Dragos. I write about software, leadership and entepreneurship.`,
     siteUrl: `https://www.dragosgn.com/`,
-    image: "assets/profile-pic.jpg", // Path to your image you placed in the 'static' folder
+    image: "/media/profile-pic.jpg", // Path to your image you placed in the 'static' folder
     social: {
       twitter: `https://twitter.com/dragosgn`,
       github: `https://github.com/dragosgn`,
@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/assets`,
+        path: `${__dirname}/static/media`,
         name: `assets`,
       },
     },
@@ -71,7 +71,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/dragos-icon.png`,
+        icon: `static/media/dragos-icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
