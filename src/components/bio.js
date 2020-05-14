@@ -50,7 +50,10 @@ const Bio = () => {
     }
   `)
 
-  const { author } = data.site.siteMetadata
+  const {
+    author,
+    social: { twitter },
+  } = data.site.siteMetadata
   return (
     <Root>
       <ImageWrapper>
@@ -76,11 +79,7 @@ const Bio = () => {
           @misterspex.
         </a>{" "}
         You can reach him at{" "}
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href={`https://twitter.com/${dragosgn}`}
-        >
+        <a target="_blank" rel="noopener noreferrer" href={twitter}>
           @dragosgn
         </a>
         .

@@ -10,9 +10,9 @@ module.exports = {
     siteUrl: `https://www.dragosgn.com/`,
     image: "/content/assets/profile-pic.jpg", // Path to your image you placed in the 'static' folder
     social: {
-      twitter: `dragosgn`,
-      github: `dragosgn`,
-      linkedin: `dragosnedelcu`,
+      twitter: `https://twitter.com/dragosgn`,
+      github: `https://github.com/dragosgn`,
+      linkedin: `https://www.linkedin.com/in/dragosnedelcu/`,
     },
   },
   plugins: [
@@ -92,14 +92,14 @@ module.exports = {
     //   },
     // },
     `gatsby-plugin-netlify-cms`,
-    {
-      resolve: "gatsby-source-goodreads",
-      options: {
-        developerKey: process.env.GOODREADS_DEV_KEY,
-        goodReadsUserId: process.env.GOODREADS_USER_ID,
-        userShelf: "public", //optional
-      },
-    },
+    // {
+    //   resolve: "gatsby-source-goodreads",
+    //   options: {
+    //     developerKey: process.env.GOODREADS_DEV_KEY,
+    //     goodReadsUserId: process.env.GOODREADS_USER_ID,
+    //     userShelf: "public", //optional
+    //   },
+    // },
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
 

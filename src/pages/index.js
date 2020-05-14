@@ -11,7 +11,11 @@ import { rhythm } from "../utils/typography"
 LogRocket.init("grfjq9/personal")
 
 const BlogIndex = ({ data, location }) => {
-  const { title: siteTitle, author } = data.site.siteMetadata
+  const {
+    title: siteTitle,
+    author,
+    social: { twitter, linkedin, github },
+  } = data.site.siteMetadata
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -55,8 +59,18 @@ const BlogIndex = ({ data, location }) => {
         settle.
       </p>
       <p>
-        You can see more of me here: <a>Linkedin</a> · <a>Github</a> ·{" "}
-        <a>Twitter</a>
+        You can see more of me here:{" "}
+        <a href={linkedin} target="_blank" rel="noopener noreferrer">
+          Linkedin
+        </a>{" "}
+        ·{" "}
+        <a href={twitter} target="_blank" rel="noopener noreferrer">
+          Twitter
+        </a>{" "}
+        ·{" "}
+        <a href={github} target="_blank" rel="noopener noreferrer">
+          Github
+        </a>
       </p>
       <br />
     </Layout>
@@ -73,6 +87,8 @@ export const pageQuery = graphql`
         author
         social {
           twitter
+          linkedin
+          github
         }
       }
     }
