@@ -53,8 +53,7 @@ const BlogIndex = ({ data, location }) => {
         Since then, I've made my way up. After exploring Berlin's startup
         ecosystem, I ended up joining one of Europe's top tech companies -
         Mister Spex. Passionate about leadership, I perform best at the
-        intersection of the intersection between people, technology, and
-        business.
+        intersection between people, business, and technology.
       </p>
       <p style={{ textAlign: "justify" }}>
         It's been quite a ride, and I love every minute of it. As for the
@@ -109,7 +108,7 @@ export const pageQuery = graphql`
     }
     avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
       childImageSharp {
-        fixed(width: 220, height: 220) {
+        fixed(width: 250, height: 250) {
           ...GatsbyImageSharpFixed
         }
       }
