@@ -4,7 +4,7 @@ date: 2020-05-07T22:45:09.600Z
 title: On Titles and Salaries
 description: 'Until then, behave like the professional you truly are.'
 ---
-I hear a lot about salary and titles in software right now.
+I hear a lot about salaries and titles in software right now.
 
 Look, a senior is a senior, no matter what. She/he doesn't wait for a promotion to do the right thing. To behave the right way.
 
