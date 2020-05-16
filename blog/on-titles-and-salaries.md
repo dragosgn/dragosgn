@@ -8,10 +8,6 @@ I hear a lot about salaries and titles in software right now.
 
 Look, a senior is a senior, no matter what. She/he doesn't wait for a promotion to do the right thing. To behave the right way.
 
-I hear a lot about salary and titles in software right now.
-
-Look, a senior is a senior, no matter what. She/he doesn't wait for a promotion to do the right thing. To behave the right way.
-
 Professionality, attitude, and living up to certain standards make you a Senior.
 
 Yes, compensation and titles should reflect contribution. It doesn't always happen. Sometimes the timing is not right or the budget is not there.
