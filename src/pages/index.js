@@ -2,13 +2,10 @@ import React from "react"
 import { graphql } from "gatsby"
 import Image from "gatsby-image"
 import "typeface-pt-sans"
-import LogRocket from "logrocket"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
-
-LogRocket.init("grfjq9/personal")
 
 const BlogIndex = ({ data, location }) => {
   const {
@@ -37,7 +34,7 @@ const BlogIndex = ({ data, location }) => {
       <h3>Hi, I am Dragos.</h3>
       <p style={{ textAlign: "justify" }}>
         I am a Software Engineer supporting a fantastic team at Mister Spex. On
-        the side, I share my knowledge and passion for software by mentoring 15+
+        the side, I share my knowledge and passion for software by mentoring 20+
         incredible software developers on their journey.
       </p>
       <p style={{ textAlign: "justify" }}>
