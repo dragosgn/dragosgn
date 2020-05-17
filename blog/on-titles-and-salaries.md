@@ -1,6 +1,6 @@
 ---
 path: on-titles-and-salaries
-date: 2020-05-07T22:45:09.600Z
+date: 2020-05-11T22:45:09.600Z
 title: On Titles and Salaries
 description: 'Until then, behave like the professional you truly are.'
 ---
