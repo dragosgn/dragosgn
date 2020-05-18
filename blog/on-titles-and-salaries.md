@@ -1,7 +1,7 @@
 ---
-path: on-titles-and-salaries
+path: titles-and-salaries-in-software
 date: 2020-05-11T22:45:09.600Z
-title: On Titles and Salaries
+title: Titles and Salaries in Software
 description: 'Until then, behave like the professional you truly are.'
 ---
 I hear a lot about salaries and titles in software right now.
