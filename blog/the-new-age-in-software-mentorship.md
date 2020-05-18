@@ -6,8 +6,6 @@ description: >-
   It's 2020. A diverse crowd is getting into software. Leaders must act fast to
   seize this opportunity.
 ---
-
-
 ![the-new-age-in-software-mentorship](/assets/article_cover.png "The New Age in software: Mentorship")
 
 ## As 'new-comers' enter the industry, mentorship programs become a must-have.
@@ -16,9 +14,9 @@ In the last nine months, I mentored 20+ software developers on their journey. Du
 
 Crunching some numbers from my mentoring activity:
 
-* roughly **54%**of the developers I tutored identify as female
-* **62%**were older than**30**
-* **98%**used**JavaScript**
+* roughly **54%** of the developers I tutored identify as female
+* **62%** were older than **30**
+* **98%** used **JavaScript**
 * **18+ countries** were present
 
 Comparing these numbers with *[official figures*](https://graphics.wsj.com/diversity-in-tech-companies/)* regarding the current IT workforce confirms it. Software professionals of tomorrow will be nothing like the ones of today.
