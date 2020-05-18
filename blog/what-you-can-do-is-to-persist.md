@@ -1,7 +1,7 @@
 ---
-path: what-you-can-do-is-to-persist
+path: leading-by-persisting
 date: 2020-05-07T22:45:09.600Z
-title: What you can do is to persist
+title: Leading by peristing
 description: Persistence alone can inspire others.
 ---
 "They are kicking my \*\** for being a poor leader. How can I learn faster?"
