@@ -6,6 +6,10 @@ description: >-
   It's 2020. A diverse crowd is getting into software. Leaders must act fast to
   seize this opportunity.
 ---
+
+
+![the-new-age-in-software-mentorship](/assets/article_cover.png "The New Age in software: Mentorship")
+
 ## As 'new-comers' enter the industry, mentorship programs become a must-have.
 
 In the last nine months, I mentored 20+ software developers on their journey. During this time, I experienced massive changes in software demographics.
@@ -43,21 +47,13 @@ The clock is ticking a late hour and as I write these lines, I can only smile. I
 
 I am confident that **we will reinvent ourselves** as we already did countless times in the past. And to the "new-comers':
 
-
-
 > You are the future of software. Make us proud!
->
->
 
 ***Do you already have a mentorship program in place? Does it extend beyond on-boarding periods? Are C-leves actively involved?***
-
-
 
 Stay cool,
 
 Dragos
-
-
 
 *Disclaimer: This article is dedicated to the wonderful persons whose life I was able to touch in the last months. Hristina, Edenilton, Marina, Pablo, Ana, Saul, Danielle, Sabine, Kharan, Daria, Asghar, Dasom, Richard, Vesna ... and many others.*
 
