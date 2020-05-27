@@ -22,12 +22,8 @@ And take a look under.
 
 What's the last thing you left "under the table"? 
 
-
-
-
-
 Stay cool,
 
 Dragos
 
-P.S. I forgot "never give the first number" and "whatever", but hey I am no expert, just a software dev.[hashtag#careeradvice](https://www.linkedin.com/feed/hashtag/?highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6671285627062890496&keywords=%23careeradvice&originTrackingId=JE6I4A%2BGQHC6273%2FDFUyCQ%3D%3D)[hashtag#negotiation](https://www.linkedin.com/feed/hashtag/?highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6671285627062890496&keywords=%23negotiation&originTrackingId=JE6I4A%2BGQHC6273%2FDFUyCQ%3D%3D)[hashtag#professionalgrowth](https://www.linkedin.com/feed/hashtag/?highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6671285627062890496&keywords=%23professionalgrowth&originTrackingId=JE6I4A%2BGQHC6273%2FDFUyCQ%3D%3D)
+P.S. I forgot "never give the first number" and "whatever", but hey I am no expert, just a software dev.[](https://www.linkedin.com/feed/hashtag/?highlightedUpdateUrns=urn%3Ali%3Aactivity%3A6671285627062890496&keywords=%23careeradvice&originTrackingId=JE6I4A%2BGQHC6273%2FDFUyCQ%3D%3D)
