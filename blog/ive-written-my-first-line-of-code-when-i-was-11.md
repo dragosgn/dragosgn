@@ -1,7 +1,7 @@
 ---
 path: be-mindful
 date: 2020-05-29T16:51:48.892Z
-title: '"I''ve written my first line of code when I was 11."'
+title: '"I''ve written my first line of code when I was 11"'
 description: This kind of statement still intimidates me.
 ---
 "I have 12 years of experience in the industry." - (age 27)
