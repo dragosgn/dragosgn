@@ -1,7 +1,7 @@
 ---
 path: stackoverflow-developer-survey-2020
 date: 2020-06-01T19:52:03.975Z
-title: My takeaways from the Stack Overflow Dev Survey 2020
+title: The StackOverflow Dev Survey 2020 is here
 description: 'The more things change, the more they stay the same.'
 ---
 Stack Overflow Dev Survey 2020 is here.
