@@ -44,7 +44,7 @@ const BlogIndex = ({ data, location }) => {
         Systems.
       </p>
       <p style={{ textAlign: "justify" }}>
-        Bankrupt before 23, when my software consulting company went burst, I
+        Bankrupt before 23, when my software consulting company went bust, I
         went on and built a career in the industry. It meant moving(again) to a
         new country, sleeping on my friend's couch, and burning the midnight
         oil.
