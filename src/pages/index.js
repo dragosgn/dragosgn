@@ -53,7 +53,7 @@ const BlogIndex = ({ data, location }) => {
         Since then, I've made my way up. After exploring Berlin's startup
         ecosystem, I ended up joining one of Europe's top tech companies -
         Mister Spex. Passionate about leadership, I perform best at the
-        intersection between people, business, and technology.
+        intersection between technology, people and business.
       </p>
       <p style={{ textAlign: "justify" }}>
         It's been quite a ride, and I love every minute of it. As for the
