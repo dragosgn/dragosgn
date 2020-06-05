@@ -60,12 +60,12 @@ const BlogIndex = ({ data, location }) => {
         reader, work with people you admire and never settle.
       </p>
       <br></br>
-      <p style={{ textAlign: "justify" }}>
+      {/* <p style={{ textAlign: "justify" }}>
         ⇒ For mentoring, book me{" "}
         <a href=" https://www.mentoring-club.com/the-mentors/dragos-nedelcu">
           here.
         </a>
-      </p>
+      </p> */}
       <p style={{ textAlign: "justify" }}>
         ⇒ I am always looking for projects with an impact. Looking for a tech
         co-founder? Drop me a line: dragosgn@gmail.com{" "}
