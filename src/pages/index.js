@@ -52,7 +52,7 @@ const BlogIndex = ({ data, location }) => {
         My 'hands-on' approach focuses on both practical and theoretical aspects
         of software development. With the right mindset, a clear learning plan,
         dedication, and guidance from someone that has "been there and done
-        that", anyone can get a job in tech.
+        that", anyone can get a job in tech. <span role="img"> 🚀</span>
       </p>
       <br />
       <p style={{ textAlign: "justify" }}>
@@ -65,7 +65,6 @@ const BlogIndex = ({ data, location }) => {
           {" "}
           here.
         </a>
-        <span role="img"> 🚀</span>
       </p>
 
       {/* <p style={{ textAlign: "justify" }}>
