@@ -33,21 +33,26 @@ const BlogIndex = ({ data, location }) => {
       />
       <h3>Hi, I am Dragos.</h3>
       <p style={{ textAlign: "justify" }}>
-        I am a Software Engineer supporting a fantastic team at Mister Spex. On
-        the side, I share my knowledge and passion for software by mentoring 20+
-        incredible software developers on their journey.
+        I am a self-taught Software Developer at Mister Spex. As a mentor, I
+        help professionals in their 30ies and 40ies to get a job as a developer
+        in 3-6 months, without a degree or Bootcamp. The catch? I've done it
+        before. Bankrupt before 23, when my consulting company went burst, I
+        went on and built a career in the industry and ended up joining one of
+        Europe's top tech companies.
       </p>
       <p style={{ textAlign: "justify" }}>
-        Born in Romania, raised in Spain and now based in beautiful Berlin. This
-        diversity of experiences, people, and perspectives marked my career. I
-        hold a Bachelor in Aerospace Engineering with a minor in Propulsion
-        Systems.
+        Last year, I've mentored more than 20 developers on their journey, many
+        of them getting full-time jobs. I specialized in 'outsiders' wanting to
+        get a job as a developer. I help them gain skills relevant to the
+        current market using a clear leaning plan, live coding sessions, and
+        industry expertise. I then help them get interviews and pass technical
+        challenges and finally get hired.
       </p>
       <p style={{ textAlign: "justify" }}>
-        Bankrupt before 23, when my software consulting company went bust, I
-        went on and built a career in the industry. It meant moving(again) to a
-        new country, sleeping on my friend's couch, and burning the midnight
-        oil.
+        I use a 'hands-on' approach focusing on both practical and theoretical
+        aspects of software development. With the right mindset, a clear
+        learning plan, dedication, and guidance from someone that has "been
+        there and done that", anyone can get a job in tech.
       </p>
       <p style={{ textAlign: "justify" }}>
         Since then, I've made my way up. After exploring Berlin's startup
