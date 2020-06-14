@@ -33,7 +33,7 @@ const BlogIndex = ({ data, location }) => {
       />
       <h3>Hi, I am Dragos.</h3>
       <p style={{ textAlign: "justify" }}>
-        As self-taught Software Developer and Mentor. <br />
+        Self-taught Software Developer and Mentor. <br />
         <br /> As a mentor, I coach professionals in their 30ies and 40ies to
         get a job as a developer in 3-6 months, without a degree or a Bootcamp.
         So far, I've mentored 20+ developers on their journey, many of them got
