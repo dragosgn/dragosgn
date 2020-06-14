@@ -50,3 +50,10 @@ a {
     flex-basis: 50%;
   }
 }
+
+.blog-article {
+  padding: 0 2rem;
+  border: 2px solid var(--brandColor);
+  margin: 1rem 0;
+  border-radius: 3px;
+}
