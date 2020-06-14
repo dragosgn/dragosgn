@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `@dragosgn`,
     author: `Dragos Nedelcu`,
-    description: `Hi, I am Dragos. I am a Software Engineer passionate about the intersection between people, technology and business. Currently happily emloyed at Mister Spex.`,
+    description: `Hi, I am Dragos. I am a Software Engineer passionate about the intersection of technology, people and business.`,
     siteUrl: `https://www.dragosgn.com/`,
     image: "/media/profile-pic.jpg", // Path to your image you placed in the 'static' folder
     social: {

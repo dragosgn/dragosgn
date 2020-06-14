@@ -58,19 +58,19 @@ const BlogIndex = ({ data, location }) => {
         Since then, I've made my way up. After exploring Berlin's startup
         ecosystem, I ended up joining one of Europe's top tech companies -
         Mister Spex. Passionate about leadership, I perform best at the
-        intersection between people, business, and technology.
+        intersection between technology, people and business.
       </p>
       <p style={{ textAlign: "justify" }}>
         It's been quite a ride, and I love every minute of it. As for the
         reader, work with people you admire and never settle.
       </p>
       <br></br>
-      <p style={{ textAlign: "justify" }}>
+      {/* <p style={{ textAlign: "justify" }}>
         ⇒ For mentoring, book me{" "}
         <a href=" https://www.mentoring-club.com/the-mentors/dragos-nedelcu">
           here.
         </a>
-      </p>
+      </p> */}
       <p style={{ textAlign: "justify" }}>
         ⇒ I am always looking for projects with an impact. Looking for a tech
         co-founder? Drop me a line: dragosgn@gmail.com{" "}
