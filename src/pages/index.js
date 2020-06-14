@@ -36,7 +36,7 @@ const BlogIndex = ({ data, location }) => {
         Self-taught Software Developer and Mentor. <br />
         <br /> As a mentor, I coach professionals in their 30ies and 40ies to
         get a job as a developer in 3-6 months, without a degree or a Bootcamp.
-        So far, I've mentored 20+ developers on their journey, many of them got
+        So far, I've mentored 20+ developers on their journey, most of them got
         full-time jobs.
         <br />
         <br />
@@ -55,8 +55,8 @@ const BlogIndex = ({ data, location }) => {
       </p>
 
       <p style={{ textAlign: "justify" }}>
-        I believe that with the right mindset and guidance from someone that has
-        "been there and done that", anyone can get a job in tech.{" "}
+        I 've "been there and done that" and I believe that with the right
+        mindset and guidance, anyone can get a job in tech.{" "}
         <span role="img"> 🚀</span>
       </p>
       <br />
