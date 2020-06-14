@@ -33,26 +33,31 @@ const BlogIndex = ({ data, location }) => {
       />
       <h3>Hi, I am Dragos.</h3>
       <p style={{ textAlign: "justify" }}>
-        Self-taught Software Developer and Mentor. <br />
+        As self-taught Software Developer and Mentor. <br />
         <br /> As a mentor, I coach professionals in their 30ies and 40ies to
         get a job as a developer in 3-6 months, without a degree or a Bootcamp.
+        So far, I've mentored 20+ developers on their journey, many of them got
+        full-time jobs.
+        <br />
+        <br />
         The catch? I've done it before. After my consulting company went
         bankrupt, I've built a career in the software industry and ended up
         joining one of Europe's top tech companies.
       </p>
       <p style={{ textAlign: "justify" }}>
-        I specialize in 'outsiders' wanting to get a job as a developer. So far,
-        I've mentored 20+ developers on their journey, many of them getting
-        full-time jobs. I help them gain skills relevant to the current market
-        using a clear leaning plan, live coding sessions, and industry
-        expertise. I then help them get interviews, pass technical challenges
-        and finally get hired.
+        I specialize in 'outsiders' wanting to get a job as a developer. I help
+        them gain skills relevant to the current market using a clear leaning
+        plan, live coding sessions, and industry expertise.
+        <br />
+        <br /> Afterwards, I help them get interviews, pass technical challenges
+        and finally get hired. My 'hands-on' approach focuses on both practical
+        and theoretical aspects of software development.
       </p>
+
       <p style={{ textAlign: "justify" }}>
-        My 'hands-on' approach focuses on both practical and theoretical aspects
-        of software development. With the right mindset, a clear learning plan,
-        dedication, and guidance from someone that has "been there and done
-        that", anyone can get a job in tech. <span role="img"> 🚀</span>
+        I believe that with the right mindset and guidance from someone that has
+        "been there and done that", anyone can get a job in tech.{" "}
+        <span role="img"> 🚀</span>
       </p>
       <br />
       <p style={{ textAlign: "justify" }}>
@@ -66,12 +71,12 @@ const BlogIndex = ({ data, location }) => {
           here.
         </a>
       </p>
-
+      <br />
+      <br />
       {/* <p style={{ textAlign: "justify" }}>
         👉🏻 I am always looking for projects with an impact. Looking for a tech
         co-founder? Drop me a line: dragosgn@gmail.com.
       </p> */}
-      <br />
       <p>
         More of me on:{" "}
         <a href={linkedin} target="_blank" rel="noopener noreferrer">
