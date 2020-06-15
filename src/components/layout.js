@@ -48,14 +48,14 @@ const Layout = ({ location, title, children }) => {
             blog
           </NavLink>
         </div>
-        {/* <div className="nav-box nav-link">
-          <NavLink
-            isActive={location.pathname === `/reading-now`}
-            to={`/reading-now`}
-          >
-            reading
-          </NavLink>
-        </div> */}
+        <a
+          className="nav-box nav-link"
+          href="https://calendly.com/dragosgn/book-dragos"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          book me
+        </a>
       </div>
     </nav>
   )
