@@ -33,7 +33,7 @@ const NavLink = styled(Link)`
   }
 `
 
-const NavLinkExternal = styled.a`
+const BookMeCTA = styled.a`
   font-family: "Josefin Sans", sans-serif;
   ${{ ...scale(1 / 4) }};
   @media screen and (max-width: 768px) {
@@ -43,6 +43,11 @@ const NavLinkExternal = styled.a`
     ${{ ...scale(-1 / 10) }};
   }
   color: var(--brandColor);
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--brandColor);
+  padding: ${rhythm(1 / 4)} ${rhythm(2 / 4)};
+  border-radius: 30px;
 `
 
 const Layout = ({ location, title, children }) => {
@@ -62,13 +67,13 @@ const Layout = ({ location, title, children }) => {
           </NavLink>
         </div>
         <div className="nav-box nav-link">
-          <NavLinkExternal
+          <BookMeCTA
             href="https://calendly.com/dragosgn/book-dragos"
             target="_blank"
             rel="noopener noreferrer"
           >
             book me
-          </NavLinkExternal>
+          </BookMeCTA>
         </div>
       </div>
     </nav>
