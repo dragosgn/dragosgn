@@ -27,9 +27,11 @@ const BlogIndex = ({ data, location }) => {
           display: "relative",
           marginBottom: rhythm(2),
         }}
-        imgStyle={{
-          borderRadius: `50%`,
-        }}
+        imgStyle={
+          {
+            // borderRadius: `50%`,
+          }
+        }
       />
       <h3>Hi, I am Dragos.</h3>
       <p style={{ textAlign: "justify" }}>
@@ -113,7 +115,7 @@ export const pageQuery = graphql`
     }
     avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
       childImageSharp {
-        fixed(width: 250, height: 250) {
+        fixed(width: 300, height: 300) {
           ...GatsbyImageSharpFixed
         }
       }

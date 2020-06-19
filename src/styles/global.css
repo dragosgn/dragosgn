@@ -31,10 +31,6 @@ a {
   display: inline;
 }
 
-.nav-container > .nav-box.nav-link > a {
-  color: var(--textColor);
-}
-
 .nav-container > .nav-box.brand {
   flex-basis: 70%;
 }

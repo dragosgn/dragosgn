@@ -23,6 +23,7 @@ const BrandLink = styled(Link)`
 const NavLink = styled(Link)`
   font-family: "Josefin Sans", sans-serif;
   box-shadow: none;
+  color: var(--textColor);
   ${{ ...scale(1 / 4) }};
   @media screen and (max-width: 768px) {
     ${{ ...scale(1 / 10) }};
@@ -30,6 +31,18 @@ const NavLink = styled(Link)`
   @media all and (max-width: 400px) {
     ${{ ...scale(-1 / 10) }};
   }
+`
+
+const NavLinkExternal = styled.a`
+  font-family: "Josefin Sans", sans-serif;
+  ${{ ...scale(1 / 4) }};
+  @media screen and (max-width: 768px) {
+    ${{ ...scale(1 / 10) }};
+  }
+  @media all and (max-width: 400px) {
+    ${{ ...scale(-1 / 10) }};
+  }
+  color: var(--brandColor);
 `
 
 const Layout = ({ location, title, children }) => {
@@ -48,14 +61,15 @@ const Layout = ({ location, title, children }) => {
             blog
           </NavLink>
         </div>
-        <a
-          className="nav-box nav-link"
-          href="https://calendly.com/dragosgn/book-dragos"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          book me
-        </a>
+        <div className="nav-box nav-link">
+          <NavLinkExternal
+            href="https://calendly.com/dragosgn/book-dragos"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            book me
+          </NavLinkExternal>
+        </div>
       </div>
     </nav>
   )
