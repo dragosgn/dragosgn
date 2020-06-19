@@ -33,18 +33,20 @@ const BlogIndex = ({ data, location }) => {
           }
         }
       />
-      <h3>Hi, I am Dragos.</h3>
+      <h1>Hi, I'm Dragos.</h1>
+      <p>Self-taught Software Developer and Mentor.</p>
       <p style={{ textAlign: "justify" }}>
-        Self-taught Software Developer and Mentor. <br />
-        <br /> As a mentor, I coach professionals in their 30ies and 40ies to
-        get a job as a developer in 3-6 months, without a degree or a Bootcamp.
-        So far, I've mentored 20+ developers on their journey, most of them got
-        full-time jobs.
+        I coach professionals in their 30ies and 40ies to get a job as a
+        developer in 3-6 months, without a degree or a Bootcamp. So far, I've
+        mentored 20+ developers on their journey, most of them got full-time
+        jobs.
         <br />
         <br />
-        The catch? I've done it before. After my consulting company went
-        bankrupt, I've built a career in the software industry and ended up
-        joining one of Europe's top tech companies.
+        The catch? I've done it before. <br />
+        <br />
+        After my consulting company went bankrupt, I've built a career in the
+        software industry and ended up joining one of Europe's top tech
+        companies.
       </p>
       <p style={{ textAlign: "justify" }}>
         I specialize in 'outsiders' wanting to get a job as a developer. I help
