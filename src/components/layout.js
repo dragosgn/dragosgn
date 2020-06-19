@@ -47,7 +47,7 @@ const BookMeCTA = styled.a`
   border-style: solid;
   border-color: var(--brandColor);
   padding: ${rhythm(1 / 4)} ${rhythm(2 / 4)};
-  border-radius: 30px;
+  border-radius: 6px;
 `
 
 const Layout = ({ location, title, children }) => {
