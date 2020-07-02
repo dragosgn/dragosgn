@@ -58,19 +58,15 @@ Advice: make connection with team members and coworkers. Get to know people in y
 
 Network means people that know about you, people that trust you. After working so hard on improving your skills, on doing a great job and helping others, it would be a pity not to give visibility to all the hard work.
 
-Developers are awkward, and "networking" in the traditional way is drowning.
-
-Yet, give it a shot.
-
-The best opportunities I've got came through my network. And not only that.
+Developers are awkward, and "networking" in the traditional way is drowning. Yet, give it a shot. The best opportunities I've got came through my network. And not only that.
 
 Advice on new technology, recommendations, life long mentors and job opportunities all are easier to get through your network. Your network is your platform for change.
 
-Advice: start creating connections now. Give more than you take
-
 Start helping others out, and good things will happen.
 
-You can also do that by trying to have lunch every week with someone you admire, someone you can help, and your co-workers. In COVID-19 times, it is easier than ever as everyone is willing to help, and distance is no longer a barrier.
+You can also do that by trying to have lunch every week with someone you admire. In COVID-19 times, it is easier than ever as everyone is willing to help, and distance is no longer a barrier.
+
+Advice: start creating connections now. Connect with like-minded developers that care about their professional image. Always, give more than you take.
 
 ## 5. Balance: consistency over time
 
