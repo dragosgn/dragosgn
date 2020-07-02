@@ -76,12 +76,8 @@ As a developer, It is so easy to just throw yourself at things, where is finishi
 
 Exercise, nutrition, and a well-deserved break from time to time will keep you going in the long run.
 
+Advice: start creating connections now. Connect with like-minded developers that care about their professional image. Always, give more than you take.
+
 ### Closing up
 
-Success in software is a mindset and a habit.
-
-Curiosity, continuous learning, and a passion for discovery are the fuel to success in such a fast-paced industry.
-
-Be a 1x programmer, five times a week.
-
-That is success.
+Success in software is a mindset and a habit. Curiosity, continuous learning, and a passion for discovery are your fuel in such a fast-paced industry. Develop great habits, be kind and help everyone you come it touch with.
