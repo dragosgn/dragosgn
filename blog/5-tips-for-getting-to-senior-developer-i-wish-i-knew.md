@@ -6,7 +6,7 @@ description: 'In software, success takes dedication and hard work.'
 ---
 
 
-![5-tips-to-become-a-senior-dev](/assets/become a senior (2).png)
+![5-tips-to-become-a-senior-dev](/assets/become a senior (2).png "In software, success takes dedication and hard work.")
 
 Are you feeling "stuck"?
 
