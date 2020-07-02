@@ -6,7 +6,7 @@ description: >-
   Professional success in the world of software takes continuous dedication,
   time and effort.
 ---
-## 1.Technical Expertise: go beyond languages and frameworks
+## 1. Technical Expertise: go beyond languages and frameworks
 
 A solid understanding of programming fundamentals will serve you well into your career. You must become familiar with data structures, popular algorithms, and design patterns. A strong knowledge base is particularly critical for self-taught software developers who didn't have the chance to study them formally.
 
