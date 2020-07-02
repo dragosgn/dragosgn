@@ -14,7 +14,7 @@ But, you don't know how.
 
 In software, there are no shortcuts. Success takes dedication and hard work. 
 
-In your quest of getting to the next level, use these 5 tips to guide your effort:
+As you get to the next level, use these 5 tips to guide your effort:
 
 ## 1. Go beyond languages and frameworks
 
