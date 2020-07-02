@@ -1,12 +1,10 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "dragosgn",
   "private": true,
   "description": "",
   "version": "0.1.0",
   "author": "Dragos Nedelcu <dragosgn@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.7",
     "bulma": "^0.8.0",
@@ -50,16 +48,11 @@
     "eslint-config-react-app": "^5.2.0",
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
-    "dragos"
+    "dragosgn"
   ],
   "license": "MIT",
   "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
