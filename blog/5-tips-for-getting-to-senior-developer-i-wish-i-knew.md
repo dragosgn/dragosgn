@@ -8,7 +8,9 @@ description: >-
 ---
 Are you feeling "stuck"?
 
-You want to level up as a developer. But, you don't know how. 
+You want to level up as a developer.
+
+But, you don't know how. 
 
 In software, there are no shortcuts. Success takes dedication and hard work. 
 
