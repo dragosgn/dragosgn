@@ -4,9 +4,7 @@ date: 2020-07-02T08:09:11.004Z
 title: 5 tips to become a Senior Developer (I wish I knew)
 description: 'In software, success takes dedication and hard work.'
 ---
-
-
-![5-tips-to-become-a-senior-dev](/assets/become a senior (2).png "In software, success takes dedication and hard work.")
+![5-tips-to-become-a-senior-dev](/assets/become_senior.png "In software, success takes dedication and hard work.")
 
 Are you feeling "stuck"?
 
