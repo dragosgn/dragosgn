@@ -1,7 +1,7 @@
 ---
-path: 5-tips-for-becoming-a-senior-developer
+path: 5-tips-to-become-a-senior-developer
 date: 2020-07-02T08:09:11.004Z
-title: 5 tips for getting to Senior Developer (I wish I knew)
+title: 5 tips to become a Senior Developer (I wish I knew)
 description: >-
   Professional success in the world of software takes continuous dedication,
   time and effort.
