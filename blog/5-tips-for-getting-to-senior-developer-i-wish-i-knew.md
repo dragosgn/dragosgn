@@ -18,7 +18,7 @@ For example, if you are a front-end developer, build some "full-stack" projects.
 
 To accelerate this learning, I recommend books such as The Pragmatic Programmer and Clean Code. They will teach you about code hygiene, things like KISS, DRY, and how to write clean, efficient programs.
 
-Pro tip: negotiate a learning budget. Approach your manager and propose that every Friday, you will use some hours to learn something new. It can be a theoretical aspect of software development or different technology.
+**Pro tip**: negotiate a learning budget. Approach your manager and propose that every Friday, you will use some hours to learn something new. It can be a theoretical aspect of software development or different technology.
 
 ## 2. Communication: leave "awkwardness" at the door
 
@@ -28,7 +28,7 @@ It can be a piece of code, feature, or a team issue, including technical and non
 
 Communicating technical solutions, measuring the pros and cons without losing your audience is hard. It means knowing how to disagree, how to receive feedback, and how to give feedback back. Communication is not a "soft" skill anymore; don't take it for granted.
 
-Pro tip: use every opportunity you get to present and speak in public. Help writing stories, READMEs, documenting code, and technical decisions. And why not put some of those learnings in a blog article.
+**Pro tip**: use every opportunity you get to present and speak in public. Help writing stories, READMEs, documenting code, and technical decisions. And why not put some of those learnings in a blog article.
 
 ## 3. Teamwork: work "with" rather than "besides."
 
@@ -44,7 +44,7 @@ Teamwork is about trust, empathy, and alignment. Learn how individuals can enabl
 
 I must admit it. It took me a while to understand that there is no I in team.
 
-Pro tip: change your mindset when it comes to teamwork. It is not about you anymore. I recommend "The 5 Dysfunctions of a team" and "Tribal Leadership".
+**Pro tip**: change your mindset when it comes to teamwork. It is not about you anymore. I recommend "The 5 Dysfunctions of a team" and "Tribal Leadership".
 
 ## 4. Network: who knows about you.
 
@@ -58,7 +58,7 @@ Start helping others out, and good things will happen.
 
 You can also do that by trying to have lunch every week with someone you admire. In COVID-19 times, it is easier than ever as everyone is willing to help, and distance is no longer a barrier.
 
-Pro tip\*\*:\*\* start creating connections now. Connect with like-minded developers that care about their professional image. Use Twitter, GitHub, Medium, LinkedIn. Get involved in the community and always give more than you take.
+**Pro tip**: start creating connections now. Connect with like-minded developers that care about their professional image. Use Twitter, GitHub, Medium, LinkedIn. Get involved in the community and always give more than you take.
 
 ## 5. Balance: consistency over time
 
@@ -68,7 +68,7 @@ It is easy to throw yourself at things, whether it is finishing a project or lea
 
 Exercise, nutrition, and a well-deserved break from time to time will keep you going in the long run.
 
-Pro tip: know thy self. Understand how you perform the best. Learn time management techniques. Listen to your body and take a break from time to time. You are in for the long-game.
+**Pro tip**: know thy self. Understand how you perform the best. Learn time management techniques. Listen to your body and take a break from time to time. You are in for the long-game.
 
 ## Closing up
 
