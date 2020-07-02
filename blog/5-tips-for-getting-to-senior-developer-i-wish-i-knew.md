@@ -2,17 +2,13 @@
 path: 5-tips-to-become-a-senior-developer
 date: 2020-07-02T08:09:11.004Z
 title: 5 tips to become a Senior Developer (I wish I knew)
-description: >-
-  Professional success in the world of software takes continuous dedication,
-  time and effort.
+description: 'In software, success takes dedication and hard work.'
 ---
 Are you feeling "stuck"?
 
 You want to level up as a developer.
 
 But, you don't know how. 
-
-In software, there are no shortcuts. Success takes dedication and hard work. 
 
 As you get to the next level, use these 5 tips to guide your effort:
 
@@ -32,7 +28,7 @@ I recommend reading classics such as The Pragmatic Programmer and Clean Code. Th
 
 **Pro tip**: negotiate a learning "Friday". Approach your manager and propose that every Friday, you will use some hours to learn something new. It can be a theoretical aspect of software development or different technology. They will most likely say yes :)
 
-## 2. Leave "awkwardness" at the door:
+## 2. Leave "awkwardness" at the door
 
 Communication is still one of the most is underrated skills in software engineering. Probably due to the long-lasting cliche of programmers being "awkward and grumpy". 
 
@@ -46,7 +42,7 @@ Communication is not a "soft" skill anymore; don't take it for granted.
 
 **Pro tip**: use every opportunity you get to present and speak in public. Help writing stories, READMEs, documenting code, and technical decisions. And why not put some of those learnings in a blog article.
 
-## 3. Work "with" rather than "besides."
+## 3. Work "with" rather than "besides"
 
 The high degree of specialisation in software means most projects need a team to succeed. You succeed when your team succeeds. In software, lone-wolfs don't make it through the winter.
 
@@ -62,7 +58,7 @@ Teamwork is about trust, empathy, and alignment. Learn how individuals can enabl
 
 **Pro tip**: change your mindset when it comes to teamwork. It is not about you anymore. I recommend "The 5 Dysfunctions of a team" and "Tribal Leadership".
 
-## 4. Network: who knows about you.
+## 4. Be visible, be seen
 
 Network means people that know about you and people that trust you. You worked so hard on improving your skills, and helping others. It would be a pity not to give visibility to all the hard work.
 
@@ -76,7 +72,7 @@ You can also do that by trying to have lunch every week with someone you admire.
 
 **Pro tip:** start creating connections now. Connect with like-minded developers that care about their professional image. Use Twitter, GitHub, Medium, LinkedIn. Get involved in the community and always give more than you take.
 
-## 5. Balance: consistency over time
+## 5. Be consistent over time
 
 I've been struggling to find balance ever since starting, and I've burned out more than once.
 
