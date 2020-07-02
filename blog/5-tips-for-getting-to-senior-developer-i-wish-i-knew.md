@@ -6,8 +6,6 @@ description: >-
   Professional success in the world of software takes continuous dedication,
   time and effort.
 ---
-
-
 ## 1. Technical Expertise: go beyond languages and frameworks
 
 A solid understanding of programming fundamentals will serve you well into your career. That means familiarity with data structures, popular algorithms and design patterns. This is particularly critical for self-taught software developers.
@@ -53,6 +51,8 @@ There is something interesting and unique about everyone in your team. Find out 
 Teamwork is about trust, empathy, and alignment. Learn how individuals can enable each other, working together and not "with" to deliver on a higher level. There is a lot of literature on the topic (5 Dysfunctions of a team).
 
 I must admit it. It took me a while to understand that there is no I in team.
+
+Advice: make connection with team members and coworkers. Get to know people in your team at a personal level. A simple way to do that is to have lunch with them from time to time. 
 
 ## 4. Network: who knows about you
 
