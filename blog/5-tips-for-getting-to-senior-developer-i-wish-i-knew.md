@@ -12,8 +12,6 @@ You want to level up as a developer.
 
 But, you don't know how.
 
-In software, success takes dedication and hard work.
-
 Use these 5 tips as a guide to Senior level:
 
 ## 1. Go beyond languages and frameworks
@@ -28,21 +26,23 @@ To be extraordinary, you will need to go the extra mile.
 
 At your first job, you will probably start with one framework and project. Moving up the stack, always keep in mind the T-shaped professional.
 
-> Become an expert a specific area. Then, make an effort to become more technology agnostic.
+> Become an expert in a specific area. Then, make an effort to become more technology agnostic.
 
 If you are a front-end developer, build some "full-stack" projects. If you are a backend developer, make a small piece of UI.
 
 Explore the possibilities of different languages, frameworks, and technologies.
 
-I recommend reading classics such as *The Pragmatic Programmer* and *Clean Code*. They will teach you about code hygiene, concepts like KISS, DRY, and how to write clean, efficient programs.
+I recommend reading classics such as*The Pragmatic Programmer*and*Clean Code*. They will teach you about code hygiene, concepts like KISS, DRY, and how to write clean, efficient programs.
 
-**Pro tip**: negotiate a learning "Friday". Approach your manager and propose that every Friday, you will use some hours to learn something new. They will most likely say yes :)
+**Pro-tip**: negotiate a learning "Friday". Approach your manager and propose that every Friday, you will use some hours to learn something new. They will most likely say yes :)
 
 ## 2. Leave "awkwardness" at the door
 
 Communication is still one of the most is underrated skills in software engineering. Probably due to the long-lasting cliche of programmers being "awkward and grumpy".
 
-Half of your job is to communicate what you do. You will participate in pair programming, grooming and planning sessions, demo meetings, and retrospectives—both verbally and in writing.
+> Half of your job is to communicate what you do.
+
+You will participate in pair programming, grooming and planning sessions, demo meetings, and retrospectives—both verbally and in writing.
 
 It can be a piece of code, feature, or a team issue, including technical and non-technical stakeholders.
 
@@ -52,11 +52,11 @@ Communicating technical solutions, measuring the pros and cons without losing yo
 
 Communication is not a "soft" skill anymore; don't take it for granted.
 
-**Pro tip**: use every opportunity you get to present and speak in public. Help writing stories, *READMEs*, documenting code, and technical decisions. And why not put some of those learnings in a blog article like this one.
+**Pro-tip**: use every opportunity you get to present and speak in public. Help writing stories,*READMEs*, documenting code, and technical decisions. And why not put some of those learnings in a blog article like this one.
 
 ## 3. Work "with" rather than "besides"
 
-The high degree of specialisation in software means most projects need a team to succeed. You succeed when your team succeeds.
+The high degree of specialization in software means most projects need a team to succeed. You succeed when your team succeeds.
 
 > In software, lone-wolfs don't make it through the winter.
 
@@ -64,15 +64,13 @@ Your team will consist of diverse individuals with different goals and contexts.
 
 > Ask yourself: how can I enable my colleagues? What do they expect from me? What are their goals?
 
-Something is exciting and unique about every individual in your team. Find out what it is, be empathetic and genuine. Get to know people on a personal level.
+Something is exciting and unique about every individual in your team. Find out what it is, be empathetic and genuine.
 
 Teamwork is about trust, empathy, and alignment.
 
 Learn how individuals can enable each other, working "with" and not "besides" to deliver on a higher level.
 
-> You are not perfect, don't expect others to be so.
-
-**Pro tip**: It is not about you anymore. Change your mindset when it comes to teamwork. As lectures, I can recommend *The 5 Dysfunctions of a Team* and *Tribal Leadership*.
+**Pro-tip**: It is not about you anymore. Change your mindset when it comes to teamwork. As lectures, I can recommend*The 5 Dysfunctions of a Team*and*Tribal Leadership*.
 
 ## 4. Be visible
 
@@ -98,7 +96,9 @@ In COVID-19 times, it is easier than ever as everyone is willing to help, and di
 
 > Get involved in the community and always give more than you take.
 
-**Pro tip:** Connect with like-minded developers that care about their professional image. Use Twitter, GitHub, Medium, LinkedIn.
+
+
+**Pro-tip:**Connect with like-minded developers that care about their professional image. Use Twitter, GitHub, Medium, LinkedIn.
 
 ## 5. Be consistent over time
 
@@ -116,14 +116,16 @@ Exercise, nutrition, and a well-deserved break from time to time will keep you g
 
 Listen to your body and take a break from time to time.
 
-**Pro tip:** know thy self. Learn time management techniques. There is a ton of great literature on the topic such as Getting Things Done by Paul Allen and Deep Work by Cal Newport.
+**Pro-tip:**know thy self. Learn time management techniques. There is a ton of great literature on the topic such as Getting Things Done by Paul Allen and Deep Work by Cal Newport.
 
 ## Closing up
 
 Success in software is a mindset and a habit.
 
-Curiosity, continuous learning, and a passion for discovery are your fuel in such a fast-paced industry.
+Continuous learning and curiosity are your fuel in such a fast-paced industry.
 
-Time will come when you will have to give back, but that's for another post :)
+Time will come when you will have to give back.
 
-What are your tips on leveling up?
+But that's for another post :)
+
+What are your tips for getting to the next level?
