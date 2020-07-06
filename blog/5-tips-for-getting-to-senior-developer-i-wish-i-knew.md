@@ -14,7 +14,7 @@ But, you don't know how.
 
 In software, success takes dedication and hard work.
 
-Use these five tips as a guide to Senior level:
+Use these 5 tips as a guide to Senior level:
 
 ## 1. Go beyond languages and frameworks
 
