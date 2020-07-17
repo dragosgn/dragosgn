@@ -37,9 +37,8 @@ const BlogIndex = ({ data, location }) => {
       <p>Self-taught Software Developer and Mentor.</p>
       <p style={{ textAlign: "justify" }}>
         I coach professionals in their 30ies and 40ies to get a job as a
-        developer in 3-6 months, without a degree or a Bootcamp. So far, I've
-        mentored 20+ developers on their journey, most of them got full-time
-        jobs.
+        developer in 3-6 months. So far, I've mentored 20+ developers on their
+        journey, most of them got full-time jobs.
         <br />
         <br />
         The catch? I've done it before. <br />
