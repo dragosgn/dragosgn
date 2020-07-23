@@ -33,7 +33,7 @@ const NavLink = styled(Link)`
   }
 `
 
-const BookMeCTA = styled.a`
+const BookMeCTA = styled(Link)`
   font-family: "Josefin Sans", sans-serif;
   ${{ ...scale(1 / 4) }};
   @media screen and (max-width: 768px) {
@@ -68,9 +68,8 @@ const Layout = ({ location, title, children }) => {
         </div>
         <div className="nav-box nav-link">
           <BookMeCTA
-            href="https://calendly.com/dragosgn/book-dragos"
-            target="_blank"
-            rel="noopener noreferrer"
+            to={`/book-dragos`}
+            isActive={location.pathname === `/book-dragos`}
           >
             book me
           </BookMeCTA>
