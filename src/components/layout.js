@@ -56,7 +56,7 @@ const Layout = ({ location, title, children }) => {
     <nav style={{ marginBottom: "1rem" }}>
       <div className="nav-container">
         <div className="nav-box brand">
-          <BrandLink to={`/`}>{title}</BrandLink>
+          {title && <BrandLink to={`/`}>{title}</BrandLink>}
         </div>
         <div className="nav-box nav-link">
           <NavLink
