@@ -77,7 +77,7 @@ const BlogIndex = ({ data, location }) => {
       <br />
       <br />
       {/* <p style={{ textAlign: "justify" }}>
-        👉🏻 I am always looking for projects with an impact. Looking for a tech
+        I am always looking for projects with an impact. Looking for a tech
         co-founder? Drop me a line: dragosgn@gmail.com.
       </p> */}
       <p>
