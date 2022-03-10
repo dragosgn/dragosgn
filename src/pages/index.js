@@ -36,8 +36,6 @@ const BlogIndex = ({ data, location }) => {
       <h1>Hi, I'm Dragos.</h1>
       <p>Self-taught Software Developer and Mentor.</p>
       <p>Currently building <a href="https://www.codewithdragos.com/">CodeWithDragos.</a></p>
-
-
       <br />
       <p>
         More of me on:{" "}

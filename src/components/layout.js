@@ -58,23 +58,6 @@ const Layout = ({ location, title, children }) => {
         <div className="nav-box brand">
           {title && <BrandLink to={`/`}>{title}</BrandLink>}
         </div>
-        <div className="nav-box nav-link">
-          <NavLink
-            isActive={location.pathname === `/technology-leadership-blog`}
-            to={`/technology-leadership-blog`}
-          >
-            blog
-          </NavLink>
-        </div>
-        <div className="nav-box nav-link">
-          <BookMeCTA
-            href={`https://calendly.com/dragosgn/book-dragos`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            book me
-          </BookMeCTA>
-        </div>
       </div>
     </nav>
   )
@@ -91,7 +74,6 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
-      <Footer />
     </div>
   )
 }
