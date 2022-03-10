@@ -35,51 +35,10 @@ const BlogIndex = ({ data, location }) => {
       />
       <h1>Hi, I'm Dragos.</h1>
       <p>Self-taught Software Developer and Mentor.</p>
-      <p style={{ textAlign: "justify" }}>
-        I coach professionals in their 30ies and 40ies to get a job as a
-        developer in 3-6 months. So far, I've mentored 20+ developers on their
-        journey, most of them got full-time jobs.
-        <br />
-        <br />
-        The catch? I've done it before. <br />
-        <br />
-        After my consulting company went bankrupt, I've built a career in the
-        software industry and ended up joining one of Europe's top tech
-        companies.
-      </p>
-      <p style={{ textAlign: "justify" }}>
-        I specialize in 'outsiders' wanting to get a job as a developer. I help
-        them gain skills relevant to the current market using a clear leaning
-        plan, live coding sessions, and industry expertise.
-        <br />
-        <br /> Afterwards, I help them get interviews, pass technical challenges
-        and finally get hired. My 'hands-on' approach focuses on both practical
-        and theoretical aspects of software development.
-      </p>
+      <p>Currently building <a href="https://www.codewithdragos.com/">CodeWithDragos.</a></p>
 
-      <p style={{ textAlign: "justify" }}>
-        I 've "been there and done that" and I believe that with the right
-        mindset and guidance, anyone can get a job in tech.{" "}
-        <span role="img"> 🚀</span>
-      </p>
+
       <br />
-      <p style={{ textAlign: "justify" }}>
-        👉🏻 You can book a quick call with me
-        <a
-          href="https://calendly.com/dragosgn/book-dragos"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {" "}
-          here.
-        </a>
-      </p>
-      <br />
-      <br />
-      {/* <p style={{ textAlign: "justify" }}>
-        I am always looking for projects with an impact. Looking for a tech
-        co-founder? Drop me a line: dragosgn@gmail.com.
-      </p> */}
       <p>
         More of me on:{" "}
         <a href={linkedin} target="_blank" rel="noopener noreferrer">
