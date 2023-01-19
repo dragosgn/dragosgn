@@ -5,4 +5,4 @@
 - :ok_woman: Pronouns: he/him.
 - :mag_right: I’m currently building a platform that helps developers get their technical skills to the next level.
 - :sparkles: Fun fact: I grew up in Spain and love spanish food.
-- Visit codewithdragos.com to see what I’ve been up to these years!
+- Visit theSeniorDev.com to see what I’ve been up to these years!
