@@ -1,8 +1,6 @@
 ## Hi there, I’m Dragos :wave:
-- :computer: I’m a software developer most confortable with the JavaScript stack.
-- :house_with_garden: I am based in Germany, Berlin.
+- :computer: I’m a software engineer most confortable with the JavaScript/TypeScript stack.
+- :house_with_garden: Based in Germany, Berlin.
 - :jigsaw: I enjoy long runs, reading about tech and gaming.
-- :ok_woman: Pronouns: he/him.
-- :mag_right: I’m currently building a platform that helps developers get their technical skills to the next level.
+- :mag_right: Currently building @theSeniorDev.
 - :sparkles: Fun fact: I grew up in Spain and love spanish food.
-- Visit theSeniorDev.com to see what I’ve been up to these years!
